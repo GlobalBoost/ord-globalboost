@@ -1,12 +1,12 @@
 [package]
-name = "ord"
-description = "◉ Ordinal wallet and block explorer"
+name = "ord-globalboost"
+description = "◉ Ordinal wallet and block explorer for globalboost"
 version = "0.13.1"
 license = "CC0-1.0"
 edition = "2021"
 autotests = false
-homepage = "https://github.com/ordinals/ord"
-repository = "https://github.com/ordinals/ord"
+homepage = "https://github.com/mendozg/ord-globalboost"
+repository = "https://github.com/mendozg/ord-globalboost"
 autobins = false
 rust-version = "1.67"
 

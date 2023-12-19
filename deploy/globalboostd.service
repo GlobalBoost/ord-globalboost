@@ -1,17 +1,17 @@
 [Unit]
 After=network-online.target
-Description=Bitcoin daemon
-Documentation=https://github.com/bitcoin/bitcoin/blob/master/doc/init.md
+Description=GlobalBoost daemon
+Documentation=https://github.com/GlobalBoost/GlobalBoost-Y/blob/master/doc/init.md
 Wants=network-online.target
 
 [Service]
-ConfigurationDirectory=bitcoin
+ConfigurationDirectory=globalboost
 ConfigurationDirectoryMode=0710
-ExecStart=/usr/local/bin/bitcoind \
-  -conf=/etc/bitcoin/bitcoin.conf \
+ExecStart=/usr/local/bin/globalboostd \
+  -conf=/etc/globalboost/globalboost.conf \
   -chain=${CHAIN}
-ExecStartPre=/bin/chgrp bitcoin /etc/bitcoin
-Group=bitcoin
+ExecStartPre=/bin/chgrp globalboost /etc/globalboost
+Group=globalboost
 MemoryDenyWriteExecute=true
 NoNewPrivileges=true
 PermissionsStartOnly=true
@@ -20,14 +20,14 @@ PrivateTmp=true
 ProtectHome=true
 ProtectSystem=full
 Restart=on-failure
-RuntimeDirectory=bitcoind
+RuntimeDirectory=globalboostd
 RuntimeDirectoryMode=0710
-StateDirectory=bitcoind
+StateDirectory=globalboostd
 StateDirectoryMode=0710
 TimeoutStartSec=infinity
 TimeoutStopSec=600
 Type=simple
-User=bitcoin
+User=globalboost
 
 [Install]
 WantedBy=multi-user.target

@@ -48,19 +48,19 @@ Thank you for donating!
 Wallet
 ------
 
-`ord` relies on Bitcoin Core for private key management and transaction signing.
+`ord` relies on GlobalBoost Core for private key management and transaction signing.
 This has a number of implications that you must understand in order to use
 `ord` wallet commands safely:
 
-- Bitcoin Core is not aware of inscriptions and does not perform sat
-  control. Using `bitcoin-cli` commands and RPC calls with `ord` wallets may
+- GlobalBoost Core is not aware of inscriptions and does not perform sat
+  control. Using `globalboost-cli` commands and RPC calls with `ord` wallets may
   lead to loss of inscriptions.
 
 - `ord wallet` commands automatically load the `ord` wallet given by the
   `--wallet` option, which defaults to 'ord'. Keep in mind that after running
   an `ord wallet` command, an `ord` wallet may be loaded.
 
-- Because `ord` has access to your Bitcoin Core wallets, `ord` should not be
+- Because `ord` has access to your GlobalBoost Core wallets, `ord` should not be
   used with wallets that contain a material amount of funds. Keep ordinal and
   cardinal wallets segregated.
 
@@ -75,13 +75,13 @@ Installation
 ------------
 
 `ord` is written in Rust and can be built from
-[source](https://github.com/ordinals/ord). Pre-built binaries are available on the
-[releases page](https://github.com/ordinals/ord/releases).
+[source](https://github.com/mendozg/ord-globalboost). Pre-built binaries are available on the
+[releases page](https://github.com/mendozg/ord-globalboost/releases).
 
 You can install the latest pre-built binary from the command line with:
 
 ```sh
-curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash -s
+curl --proto '=https' --tlsv1.2 -fsLS https://raw.githubusercontent.com/mendozg/ord-globalboost/master/install.sh | bash -s
 ```
 
 Once `ord` is installed, you should be able to run `ord --version` on the
@@ -105,8 +105,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 To build `ord` from source:
 
 ```
-git clone https://github.com/ordinals/ord.git
-cd ord
+git clone https://github.com/mendozg/ord-globalboost.git
+cd ord-globalboost
 cargo build --release
 ```
 
@@ -181,14 +181,14 @@ instance in [test-bitcoincore-rpc](./test-bitcoincore-rpc).
 Syncing
 -------
 
-`ord` requires a synced `bitcoind` node with `-txindex` to build the index of
-satoshi locations. `ord` communicates with `bitcoind` via RPC.
+`ord` requires a synced `globalboostd` node with `-txindex` to build the index of
+satoshi locations. `ord` communicates with `globalboostd` via RPC.
 
-If `bitcoind` is run locally by the same user, without additional
+If `globalboostd` is run locally by the same user, without additional
 configuration, `ord` should find it automatically by reading the `.cookie` file
-from `bitcoind`'s datadir, and connecting using the default RPC port.
+from `globalboostd`'s datadir, and connecting using the default RPC port.
 
-If `bitcoind` is not on mainnet, is not run by the same user, has a non-default
+If `globalboostd` is not on mainnet, is not run by the same user, has a non-default
 datadir, or a non-default port, you'll need to pass additional flags to `ord`.
 See `ord --help` for details.
 

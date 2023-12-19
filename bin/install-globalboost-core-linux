@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+version=25.0.0
+
+wget \
+  -O globalboost.tar.gz \
+  https://github.com/GlobalBoost/GlobalBoost-Y/releases/download/v25.x/globalboost-25.0.0-x86_64-pc-linux-gnu.tar.gz
+tar \
+  -xzvf globalboost-25.0.0-x86_64-pc-linux-gnu.tar.gz \
+  -C /usr/local/bin \
+  --strip-components 2 \
+  x86_64-pc-linux-gnu/{globalboost-cli,globalboostd}

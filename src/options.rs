@@ -334,7 +334,7 @@ mod tests {
   fn use_default_network() {
     let arguments = Arguments::try_parse_from(["ord", "index", "update"]).unwrap();
 
-    assert_eq!(arguments.options.rpc_url(), "127.0.0.1:8332/wallet/ord");
+    assert_eq!(arguments.options.rpc_url(), "127.0.0.1:8225/wallet/ord");
 
     assert!(arguments
       .options
@@ -348,7 +348,7 @@ mod tests {
     let arguments =
       Arguments::try_parse_from(["ord", "--chain=signet", "index", "update"]).unwrap();
 
-    assert_eq!(arguments.options.rpc_url(), "127.0.0.1:38332/wallet/ord");
+    assert_eq!(arguments.options.rpc_url(), "127.0.0.1:38225/wallet/ord");
 
     assert!(arguments
       .options
@@ -374,11 +374,11 @@ mod tests {
       .to_string();
 
     assert!(cookie_file.ends_with(if cfg!(target_os = "linux") {
-      "/.bitcoin/.cookie"
+      "/.globalboost/.cookie"
     } else if cfg!(windows) {
-      r"\Bitcoin\.cookie"
+      r"\GlobalBoost\.cookie"
     } else {
-      "/Bitcoin/.cookie"
+      "/GlobalBoost/.cookie"
     }))
   }
 
@@ -395,11 +395,11 @@ mod tests {
       .to_string();
 
     assert!(cookie_file.ends_with(if cfg!(target_os = "linux") {
-      "/.bitcoin/signet/.cookie"
+      "/.globalboost/signet/.cookie"
     } else if cfg!(windows) {
-      r"\Bitcoin\signet\.cookie"
+      r"\GlobalBoost\signet\.cookie"
     } else {
-      "/Bitcoin/signet/.cookie"
+      "/GlobalBoost/signet/.cookie"
     }));
   }
 
