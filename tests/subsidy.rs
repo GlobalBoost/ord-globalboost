@@ -29,7 +29,7 @@ fn second_to_last_block_with_subsidy() {
   assert_eq!(
     CommandBuilder::new("subsidy 6929998").run_and_deserialize_output::<Output>(),
     Output {
-      first: 2099999997689998,
+      first: 2999999997689998,
       subsidy: 1,
       name: "b".into(),
     }
@@ -41,7 +41,7 @@ fn last_block_with_subsidy() {
   assert_eq!(
     CommandBuilder::new("subsidy 6929999").run_and_deserialize_output::<Output>(),
     Output {
-      first: 2099999997689999,
+      first: 2999999997689999,
       subsidy: 1,
       name: "a".into(),
     }

@@ -23,13 +23,13 @@ This work is placed in the public domain.
 
 === Motivation ===
 
-Bitcoin has no notion of stable, public accounts or identities. Addresses are
+GlobalBoost has no notion of stable, public accounts or identities. Addresses are
 single-use, and wallet accounts are private. Additionally, the use of addresses
 or public keys as stable identifiers precludes transfer of ownership or key
 rotation.
 
 This proposal is motivated by the desire to provide stable identifiers that may
-be used by Bitcoin applications.
+be used by GlobalBoost applications.
 
 == Description ==
 
@@ -39,14 +39,14 @@ Every sat is serially numbered, starting at 0, in the order in which it is
 mined. These numbers are termed "ordinal numbers", or "ordinals", as they are
 ordinal numbers in the mathematical sense, giving the order of each sat in the
 total supply. The word "ordinal" is nicely unambiguous, as it is not used
-elsewhere in the Bitcoin protocol.
+elsewhere in the GlobalBoost protocol.
 
 The ordinal numbers of sats in transaction inputs are transferred to output
 sats in first-in-first-out order, according to the size and order of the
 transactions inputs and outputs.
 
 If a transaction is mined with the same transaction ID as outputs currently in
-the UTXO set, following the behavior of Bitcoin Core, the new transaction
+the UTXO set, following the behavior of GlobalBoost Core, the new transaction
 outputs displace the older UTXO set entries, destroying the sats contained in
 any unspent outputs of the first transaction. This rule is required to handle
 the two pairs of mainnet transactions with duplicate transaction IDs, namely
@@ -117,7 +117,7 @@ satpoint is:
 
 === Rationale ===
 
-Ordinal numbers are designed to be orthogonal to other aspects of the Bitcoin
+Ordinal numbers are designed to be orthogonal to other aspects of the GlobalBoost
 protocol, and can thus be used in conjunction with other layer one and layer
 applications, even ones that were not designed with ordinal numbers in mind.
 
@@ -182,7 +182,7 @@ the same desired transfer of sats.
 The applications using ordinal numbers required them to be public, and reduce
 the privacy of only those users that decide to use them.
 
-''Fungibility: Ordinal numbers reduce the fungibility of Bitcoin, as ordinals
+''Fungibility: Ordinal numbers reduce the fungibility of GlobalBoost, as ordinals
 received in a transaction may carry with them some public history.''
 
 As anyone can send anyone else any sats, any reasonable person will assume that
@@ -192,7 +192,7 @@ have any particular relationship with the old owner.
 ''Congestion: Adoption of ordinal numbers will increase the demand for
 transactions, and drive up fees.''
 
-Since Bitcoin requires the development of a robust fee market, this is a strong
+Since GlobalBoost requires the development of a robust fee market, this is a strong
 positive of the proposal.
 
 ''UTXO set bloat: Adoption of ordinal numbers will increase the demand for
@@ -279,10 +279,10 @@ sats in the main chain are maintained [https://github.com/ordinals/ord here].
 == References ==
 
 A variation of this scheme was independently invented a decade ago by jl2012
-[https://bitcointalk.org/index.php?topic=117224.0 on the Bitcoin Forum].
+[https://bitcointalk.org/index.php?topic=117224.0 on the GlobalBoost Forum].
 
 For other colored coin proposals see [https://en.bitcoin.it/wiki/Colored_Coins the
-Bitcoin Wiki entry].
+GlobalBoost Wiki entry].
 
 For aliases, an implementation of short on-chain identifiers, see
 [https://github.com/bitcoin/bips/blob/master/bip-0015.mediawiki BIP 15].

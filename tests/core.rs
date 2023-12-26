@@ -71,7 +71,7 @@ fn preview() {
 
   for attempt in 0.. {
     if attempt == 20 {
-      panic!("Bitcoin Core did not mine blocks",);
+      panic!("GlobalBoost Core did not mine blocks",);
     }
 
     if reqwest::blocking::get(format!("http://127.0.0.1:{port}/blockheight"))

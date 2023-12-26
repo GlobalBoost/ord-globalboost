@@ -87,3 +87,7 @@ path = "tests/lib.rs"
 
 [build-dependencies]
 pulldown-cmark = "0.9.2"
+
+[patch.crates-io]
+bitcoin = { git = "https://github.com/mendozg/rust-globalboost" }
+bitcoincore-rpc = { git = "https://github.com/mendozg/rust-bitcoincore-rpc" }

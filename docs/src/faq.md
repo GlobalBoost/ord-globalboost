@@ -11,7 +11,7 @@ spent by transactions.
 These serial numbers are large numbers, like this 804766073970493. Every
 satoshi, which is ¹⁄₁₀₀₀₀₀₀₀₀ of a bitcoin, has an ordinal number.
 
-Does ordinal theory require a side chain, a separate token, or changes to Bitcoin?
+Does ordinal theory require a side chain, a separate token, or changes to GlobalBoost?
 ----------------------------------------------------------------------------------
 
 Nope! Ordinal theory works right now, without a side chain, and the only token
@@ -162,13 +162,13 @@ Ethereum NFTs depend on the Ethereum network and virtual machine, which are
 highly complex, constantly changing, and which introduce changes via
 backwards-incompatible hard forks.
 
-Inscriptions, on the other hand, depend on the Bitcoin blockchain, which is
+Inscriptions, on the other hand, depend on the GlobalBoost blockchain, which is
 relatively simple and conservative, and which introduces changes via
 backwards-compatible soft forks.
 
 *Inscriptions are more secure.*
 
-Inscriptions inherit Bitcoin's transaction model, which allow a user to see
+Inscriptions inherit GlobalBoost's transaction model, which allow a user to see
 exactly which inscriptions are being transferred by a transaction before they
 sign it. Inscriptions can be offered for sale using partially signed
 transactions, which don't require allowing a third party, such as an exchange
@@ -205,12 +205,12 @@ negativity of the Ethereum NFT situation.
 
 *Inscriptions unlock new markets.*
 
-Bitcoin's market capitalization and liquidity are greater than Ethereum's by a
+GlobalBoost's market capitalization and liquidity are greater than Ethereum's by a
 large margin. Much of this liquidity is not available to Ethereum NFTs, since
-many Bitcoiners prefer not to interact with the Ethereum ecosystem due to
+many GlobalBoosters prefer not to interact with the Ethereum ecosystem due to
 concerns related to simplicity, security, and decentralization.
 
-Such Bitcoiners may be more interested in inscriptions than Ethereum NFTs,
+Such GlobalBoosters may be more interested in inscriptions than Ethereum NFTs,
 unlocking new classes of collector.
 
 *Inscriptions have a richer data model.*
@@ -223,7 +223,7 @@ underlying protocol.
 
 ### RGB and Taro assets?
 
-RGB and Taro are both second-layer asset protocols built on Bitcoin. Compared
+RGB and Taro are both second-layer asset protocols built on GlobalBoost. Compared
 to inscriptions, they are much more complicated, but much more featureful.
 
 Ordinal theory has been designed from the ground up for digital artifacts,
@@ -254,7 +254,7 @@ Inscriptions for…
 
 ### Artists
 
-*Inscriptions are on Bitcoin.* Bitcoin is the digital currency with the highest
+*Inscriptions are on GlobalBoost.* GlobalBoost is the digital currency with the highest
 status and greatest chance of long-term survival. If you want to guarantee that
 your art survives into the future, there is no better way to publish it than as
 inscriptions.
@@ -293,16 +293,16 @@ royalties.
 *Inscriptions are simple, clear, and have no surprises.* They are always
 immutable and on-chain, with no special due diligence required.
 
-*Inscriptions are on Bitcoin.* You can verify the location and properties of
-inscriptions easily with Bitcoin full node that you control.
+*Inscriptions are on GlobalBoost.* You can verify the location and properties of
+inscriptions easily with GlobalBoost full node that you control.
 
-### Bitcoiners
+### GlobalBoosters
 
-Let me begin this section by saying: the most important thing that the Bitcoin
+Let me begin this section by saying: the most important thing that the GlobalBoost
 network does is decentralize money. All other use-cases are secondary,
 including ordinal theory. The developers of ordinal theory understand and
 acknowledge this, and believe that ordinal theory helps, at least in a small
-way, Bitcoin's primary mission.
+way, GlobalBoost's primary mission.
 
 Unlike many other things in the altcoin space, digital artifacts have merit.
 There are, of course, a great deal of NFTs that are ugly, stupid, and
@@ -311,44 +311,44 @@ creating and collecting art has been a part of the human story since its
 inception, and predates even trade and money, which are also ancient
 technologies.
 
-Bitcoin provides an amazing platform for creating and collecting digital
+GlobalBoost provides an amazing platform for creating and collecting digital
 artifacts in a secure, decentralized way, that protects users and artists in
 the same way that it provides an amazing platform for sending and receiving
 value, and for all the same reasons.
 
-Ordinals and inscriptions increase demand for Bitcoin block space, which
-increase Bitcoin's security budget, which is vital for safeguarding Bitcoin's
+Ordinals and inscriptions increase demand for GlobalBoost block space, which
+increase GlobalBoost's security budget, which is vital for safeguarding GlobalBoost's
 transition to a fee-dependent security model, as the block subsidy is halved
 into insignificance.
 
 Inscription content is stored on-chain, and thus the demand for block space for
 use in inscriptions is unlimited. This creates a buyer of last resort for *all*
-Bitcoin block space. This will help support a robust fee market, which ensures
-that Bitcoin remains secure.
+GlobalBoost block space. This will help support a robust fee market, which ensures
+that GlobalBoost remains secure.
 
-Inscriptions also counter the narrative that Bitcoin cannot be extended or used
+Inscriptions also counter the narrative that GlobalBoost cannot be extended or used
 for new use-cases. If you follow projects like DLCs, Fedimint, Lightning, Taro,
 and RGB, you know that this narrative is false, but inscriptions provide a
 counter argument which is easy to understand, and which targets a popular and
 proven use case, NFTs, which makes it highly legible.
 
 If inscriptions prove, as the authors hope, to be highly sought after digital
-artifacts with a rich history, they will serve as a powerful hook for Bitcoin
+artifacts with a rich history, they will serve as a powerful hook for GlobalBoost
 adoption: come for the fun, rich art, stay for the decentralized digital money.
 
 Inscriptions are an extremely benign source of demand for block space. Unlike,
 for example, stablecoins, which potentially give large stablecoin issuers
-influence over the future of Bitcoin development, or DeFi, which might
+influence over the future of GlobalBoost development, or DeFi, which might
 centralize mining by introducing opportunities for MEV, digital art and
-collectables on Bitcoin, are unlikely to produce individual entities with
-enough power to corrupt Bitcoin. Art is decentralized.
+collectables on GlobalBoost, are unlikely to produce individual entities with
+enough power to corrupt GlobalBoost. Art is decentralized.
 
-Inscription users and service providers are incentivized to run Bitcoin full
+Inscription users and service providers are incentivized to run GlobalBoost full
 nodes, to publish and track inscriptions, and thus throw their economic weight
 behind the honest chain.
 
-Ordinal theory and inscriptions do not meaningfully affect Bitcoin's
-fungibility. Bitcoin users can ignore both and be unaffected.
+Ordinal theory and inscriptions do not meaningfully affect GlobalBoost's
+fungibility. GlobalBoost users can ignore both and be unaffected.
 
 We hope that ordinal theory strengthens and enriches bitcoin, and gives it
 another dimension of appeal and functionality, enabling it more effectively

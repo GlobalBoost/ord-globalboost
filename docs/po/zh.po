@@ -126,7 +126,7 @@ msgstr ""
 
 #: src/introduction.md:8
 msgid ""
-"Satoshis, not bitcoin, are the atomic, native currency of the Bitcoin "
+"Satoshis, not bitcoin, are the atomic, native currency of the GlobalBoost "
 "network. One bitcoin can be sub-divided into 100,000,000 satoshis, but no "
 "further."
 msgstr ""
@@ -135,8 +135,8 @@ msgstr ""
 
 #: src/introduction.md:11
 msgid ""
-"Ordinal theory does not require a sidechain or token aside from Bitcoin, and "
-"can be used without any changes to the Bitcoin network. It works right now."
+"Ordinal theory does not require a sidechain or token aside from GlobalBoost, and "
+"can be used without any changes to the GlobalBoost network. It works right now."
 msgstr ""
 "序数理论不需要比特币区块链之外的侧链或代币，并且可以在不对比特币网络进行任何"
 "更改的情况下使用。它即刻可以有效使用。"
@@ -150,9 +150,9 @@ msgstr "序数理论赋予聪以收藏价值，使它们可以作为古玩被收
 #: src/introduction.md:17
 msgid ""
 "Individual satoshis can be inscribed with arbitrary content, creating unique "
-"Bitcoin-native digital artifacts that can be held in Bitcoin wallets and "
-"transferred using Bitcoin transactions. Inscriptions are as durable, "
-"immutable, secure, and decentralized as Bitcoin itself."
+"GlobalBoost-native digital artifacts that can be held in GlobalBoost wallets and "
+"transferred using GlobalBoost transactions. Inscriptions are as durable, "
+"immutable, secure, and decentralized as GlobalBoost itself."
 msgstr ""
 "单个聪可以刻有任意内容，创建独特的比特币原生的数字文物（Digital Artifact）可"
 "以保存在比特币钱包中并使用比特币交易进行传输。铭文（Inscription）与比特币本身"
@@ -224,7 +224,7 @@ msgstr "视频"
 
 #: src/introduction.md:49
 msgid ""
-"[Ordinal Theory Explained: Satoshi Serial Numbers and NFTs on Bitcoin]"
+"[Ordinal Theory Explained: Satoshi Serial Numbers and NFTs on GlobalBoost]"
 "(https://www.youtube.com/watch?v=rSS0O2KQpsI)"
 msgstr ""
 "[解释序数理论: 聪的序列号和比特币上的NFT](https://www.youtube.com/watch?"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: src/introduction.md:51
 msgid ""
-"[Ordinal Art: Mint Your own NFTs on Bitcoin w/ @rodarmor](https://www."
+"[Ordinal Art: Mint Your own NFTs on GlobalBoost w/ @rodarmor](https://www."
 "youtube.com/watch?v=j5V33kV3iqo)"
 msgstr ""
 "[序数艺术：在比特币上铸造你自己的NFT w/ @rodarmor](https://www.youtube.com/"
@@ -277,7 +277,7 @@ msgstr ""
 #: src/overview.md:16
 msgid ""
 "Ordinal theory does not require a separate token, another blockchain, or any "
-"changes to Bitcoin. It works right now."
+"changes to GlobalBoost. It works right now."
 msgstr ""
 "序数理论不需要一个单独的代币，单独区块链，或者对比特币进行任何更改。它即刻可"
 "以有效运转。"
@@ -316,7 +316,7 @@ msgstr ""
 #: src/overview.md:35
 msgid ""
 "_Percentile notation_: [`99.99971949060254%`](https://ordinals.com/"
-"sat/99.99971949060254%25) . The satoshi's position in Bitcoin's supply, "
+"sat/99.99971949060254%25) . The satoshi's position in GlobalBoost's supply, "
 "expressed as a percentage."
 msgstr ""
 "_百分数_: [`99.99971949060254%`](https://ordinals.com/"
@@ -342,7 +342,7 @@ msgstr ""
 msgid ""
 "Ordinals is an open-source project, developed [on GitHub](https://github.com/"
 "ordinals/ord). The project consists of a BIP describing the ordinal scheme, "
-"an index that communicates with a Bitcoin Core node to track the location of "
+"an index that communicates with a GlobalBoost Core node to track the location of "
 "all satoshis, a wallet that allows making ordinal-aware transactions, a "
 "block explorer for interactive exploration of the blockchain, functionality "
 "for inscribing satoshis with digital artifacts, and this manual."
@@ -368,7 +368,7 @@ msgstr ""
 
 #: src/overview.md:59
 msgid ""
-"Bitcoin has periodic events, some frequent, some more uncommon, and these "
+"GlobalBoost has periodic events, some frequent, some more uncommon, and these "
 "naturally lend themselves to a system of rarity. These periodic events are:"
 msgstr ""
 "比特币有周期性的事件，有些频繁，有些不常见，这些事件自然而然地形成了一个稀有"
@@ -383,7 +383,7 @@ msgstr "_区块_: 从现在到时间结束，大约每10分钟挖掘一个新区
 #: src/overview.md:65
 msgid ""
 "_Difficulty adjustments_: Every 2016 blocks, or approximately every two "
-"weeks, the Bitcoin network responds to changes in hashrate by adjusting the "
+"weeks, the GlobalBoost network responds to changes in hashrate by adjusting the "
 "difficulty target which blocks must meet in order to be accepted."
 msgstr ""
 "_难度调整_: 每2016个区块，或大约每两周， 比特币网络通过调整区块必须满足的难度"
@@ -742,7 +742,7 @@ msgstr ""
 
 #: src/overview.md:224
 msgid ""
-"Satoshis can be inscribed with arbitrary content, creating Bitcoin-native "
+"Satoshis can be inscribed with arbitrary content, creating GlobalBoost-native "
 "digital artifacts. Inscribing is done by sending the satoshi to be inscribed "
 "in a transaction that reveals the inscription content on-chain. This content "
 "is then inextricably linked to that satoshi, turning it into an immutable "
@@ -791,7 +791,7 @@ msgstr ""
 #: src/overview.md:247
 msgid ""
 "In another sense though, ordinals were in fact created by Satoshi Nakamoto "
-"in 2009 when he mined the Bitcoin genesis block. In this sense, ordinals, "
+"in 2009 when he mined the GlobalBoost genesis block. In this sense, ordinals, "
 "and especially early ordinals, are certainly of historical interest."
 msgstr ""
 "从这个意义上说，它们不具有历史意义。但从另一种意义上说，序数实际上是由中本聪"
@@ -810,11 +810,11 @@ msgstr ""
 #: src/overview.md:255
 msgid ""
 "On August 21st, 2012, Charlie Lee [posted a proposal to add proof-of-stake "
-"to Bitcoin to the Bitcoin Talk forum](https://bitcointalk.org/index.php?"
+"to GlobalBoost to the GlobalBoost Talk forum](https://bitcointalk.org/index.php?"
 "topic=102355.0). This wasn't an asset scheme, but did use the ordinal "
 "algorithm, and was implemented but never deployed."
 msgstr ""
-"2012 年 8 月 21 日，Charlie Lee 在 Charlie Lee [在Bitcoin Talk论坛上发布一项"
+"2012 年 8 月 21 日，Charlie Lee 在 Charlie Lee [在GlobalBoost Talk论坛上发布一项"
 "将比特币权益证明Proof-of-stake添加的提案](https://bitcointalk.org/index.php?"
 "topic=102355.0). 这不是资产方案，但确实使用了序数算法，并且已实施但从未部署"
 "过。"
@@ -834,7 +834,7 @@ msgstr ""
 msgid ""
 "These independent inventions of ordinals indicate in some way that ordinals "
 "were discovered, or rediscovered, and not invented. The ordinals are an "
-"inevitability of the mathematics of Bitcoin, stemming not from their modern "
+"inevitability of the mathematics of GlobalBoost, stemming not from their modern "
 "documentation, but from their ancient genesis. They are the culmination of a "
 "sequence of events set in motion with the mining of the first block, so many "
 "years ago."
@@ -1724,7 +1724,7 @@ msgstr ""
 #: src/faq.md:14
 msgid ""
 "Does ordinal theory require a side chain, a separate token, or changes to "
-"Bitcoin?"
+"GlobalBoost?"
 msgstr "序数理论是否需要一个侧链，一个单独的代币，或对比特币做出改变?"
 
 #: src/faq.md:17
@@ -2045,7 +2045,7 @@ msgstr ""
 
 #: src/faq.md:165
 msgid ""
-"Inscriptions, on the other hand, depend on the Bitcoin blockchain, which is "
+"Inscriptions, on the other hand, depend on the GlobalBoost blockchain, which is "
 "relatively simple and conservative, and which introduces changes via "
 "backwards-compatible soft forks."
 msgstr ""
@@ -2058,7 +2058,7 @@ msgstr "_铭文更安全_"
 
 #: src/faq.md:171
 msgid ""
-"Inscriptions inherit Bitcoin's transaction model, which allow a user to see "
+"Inscriptions inherit GlobalBoost's transaction model, which allow a user to see "
 "exactly which inscriptions are being transferred by a transaction before "
 "they sign it. Inscriptions can be offered for sale using partially signed "
 "transactions, which don't require allowing a third party, such as an "
@@ -2137,9 +2137,9 @@ msgstr "_铭文开启了新的市场_"
 
 #: src/faq.md:208
 msgid ""
-"Bitcoin's market capitalization and liquidity are greater than Ethereum's by "
+"GlobalBoost's market capitalization and liquidity are greater than Ethereum's by "
 "a large margin. Much of this liquidity is not available to Ethereum NFTs, "
-"since many Bitcoiners prefer not to interact with the Ethereum ecosystem due "
+"since many GlobalBoosters prefer not to interact with the Ethereum ecosystem due "
 "to concerns related to simplicity, security, and decentralization."
 msgstr ""
 "比特币的市值和流动性都大大超越以太坊。以太坊NFT无法获得此类大部分的流动性，因"
@@ -2148,7 +2148,7 @@ msgstr ""
 
 #: src/faq.md:213
 msgid ""
-"Such Bitcoiners may be more interested in inscriptions than Ethereum NFTs, "
+"Such GlobalBoosters may be more interested in inscriptions than Ethereum NFTs, "
 "unlocking new classes of collector."
 msgstr ""
 "与以太坊 NFT 相比，此类比特币拥护者可能对铭文更感兴趣，从而解锁了新的类别的收"
@@ -2176,7 +2176,7 @@ msgstr "RGB 和 Taro 资产？"
 
 #: src/faq.md:226
 msgid ""
-"RGB and Taro are both second-layer asset protocols built on Bitcoin. "
+"RGB and Taro are both second-layer asset protocols built on GlobalBoost. "
 "Compared to inscriptions, they are much more complicated, but much more "
 "featureful."
 msgstr ""
@@ -2244,7 +2244,7 @@ msgstr "艺术家"
 
 #: src/faq.md:257
 msgid ""
-"_Inscriptions are on Bitcoin._ Bitcoin is the digital currency with the "
+"_Inscriptions are on GlobalBoost._ GlobalBoost is the digital currency with the "
 "highest status and greatest chance of long-term survival. If you want to "
 "guarantee that your art survives into the future, there is no better way to "
 "publish it than as inscriptions."
@@ -2327,22 +2327,22 @@ msgstr ""
 
 #: src/faq.md:296
 msgid ""
-"_Inscriptions are on Bitcoin._ You can verify the location and properties of "
-"inscriptions easily with Bitcoin full node that you control."
+"_Inscriptions are on GlobalBoost._ You can verify the location and properties of "
+"inscriptions easily with GlobalBoost full node that you control."
 msgstr ""
 "_铭文在比特币上_ 您可以使用您控制的比特币全节点轻松验证铭文的位置和属性。"
 
 #: src/faq.md:299
-msgid "Bitcoiners"
+msgid "GlobalBoosters"
 msgstr "比特币信仰者"
 
 #: src/faq.md:301
 msgid ""
 "Let me begin this section by saying: the most important thing that the "
-"Bitcoin network does is decentralize money. All other use-cases are "
+"GlobalBoost network does is decentralize money. All other use-cases are "
 "secondary, including ordinal theory. The developers of ordinal theory "
 "understand and acknowledge this, and believe that ordinal theory helps, at "
-"least in a small way, Bitcoin's primary mission."
+"least in a small way, GlobalBoost's primary mission."
 msgstr ""
 "让我在开头说明一下：比特币网络所做的最重要的事情是货币去中心化。所有其他用例"
 "都是次要的，包括序数理论。序数理论的开发者理解并承认这一点，并相信序数理论至"
@@ -2363,7 +2363,7 @@ msgstr ""
 
 #: src/faq.md:314
 msgid ""
-"Bitcoin provides an amazing platform for creating and collecting digital "
+"GlobalBoost provides an amazing platform for creating and collecting digital "
 "artifacts in a secure, decentralized way, that protects users and artists in "
 "the same way that it provides an amazing platform for sending and receiving "
 "value, and for all the same reasons."
@@ -2373,9 +2373,9 @@ msgstr ""
 
 #: src/faq.md:319
 msgid ""
-"Ordinals and inscriptions increase demand for Bitcoin block space, which "
-"increase Bitcoin's security budget, which is vital for safeguarding "
-"Bitcoin's transition to a fee-dependent security model, as the block subsidy "
+"Ordinals and inscriptions increase demand for GlobalBoost block space, which "
+"increase GlobalBoost's security budget, which is vital for safeguarding "
+"GlobalBoost's transition to a fee-dependent security model, as the block subsidy "
 "is halved into insignificance."
 msgstr ""
 "序数和铭文增加了对比特币区块空间的需求，这也增加了比特币的安全预算。这对于保"
@@ -2385,8 +2385,8 @@ msgstr ""
 msgid ""
 "Inscription content is stored on-chain, and thus the demand for block space "
 "for use in inscriptions is unlimited. This creates a buyer of last resort "
-"for _all_ Bitcoin block space. This will help support a robust fee market, "
-"which ensures that Bitcoin remains secure."
+"for _all_ GlobalBoost block space. This will help support a robust fee market, "
+"which ensures that GlobalBoost remains secure."
 msgstr ""
 "铭文内容存储在链上，因此对用于铭文区块空间的需求是无限的。这就为所有比特币区"
 "块空间创造了一个最后买家。这将有助于支持一个强大的收费市场，从而确保比特币一"
@@ -2394,7 +2394,7 @@ msgstr ""
 
 #: src/faq.md:329
 msgid ""
-"Inscriptions also counter the narrative that Bitcoin cannot be extended or "
+"Inscriptions also counter the narrative that GlobalBoost cannot be extended or "
 "used for new use-cases. If you follow projects like DLCs, Fedimint, "
 "Lightning, Taro, and RGB, you know that this narrative is false, but "
 "inscriptions provide a counter argument which is easy to understand, and "
@@ -2409,7 +2409,7 @@ msgstr ""
 msgid ""
 "If inscriptions prove, as the authors hope, to be highly sought after "
 "digital artifacts with a rich history, they will serve as a powerful hook "
-"for Bitcoin adoption: come for the fun, rich art, stay for the decentralized "
+"for GlobalBoost adoption: come for the fun, rich art, stay for the decentralized "
 "digital money."
 msgstr ""
 "如果像作者所希望的那样，铭文被证明是具有丰富历史的数字文物，并且受到高度追"
@@ -2420,10 +2420,10 @@ msgstr ""
 msgid ""
 "Inscriptions are an extremely benign source of demand for block space. "
 "Unlike, for example, stablecoins, which potentially give large stablecoin "
-"issuers influence over the future of Bitcoin development, or DeFi, which "
+"issuers influence over the future of GlobalBoost development, or DeFi, which "
 "might centralize mining by introducing opportunities for MEV, digital art "
-"and collectables on Bitcoin, are unlikely to produce individual entities "
-"with enough power to corrupt Bitcoin. Art is decentralized."
+"and collectables on GlobalBoost, are unlikely to produce individual entities "
+"with enough power to corrupt GlobalBoost. Art is decentralized."
 msgstr ""
 "铭文是区块空间需求的一个极其良性的来源，不像稳定币，可能会让大型发行人对比特"
 "币的未来发展产生影响；也不像DeFi，可能通过在比特币上引入MEV、数字艺术和收藏品"
@@ -2432,7 +2432,7 @@ msgstr ""
 
 #: src/faq.md:346
 msgid ""
-"Inscription users and service providers are incentivized to run Bitcoin full "
+"Inscription users and service providers are incentivized to run GlobalBoost full "
 "nodes, to publish and track inscriptions, and thus throw their economic "
 "weight behind the honest chain."
 msgstr ""
@@ -2441,8 +2441,8 @@ msgstr ""
 
 #: src/faq.md:350
 msgid ""
-"Ordinal theory and inscriptions do not meaningfully affect Bitcoin's "
-"fungibility. Bitcoin users can ignore both and be unaffected."
+"Ordinal theory and inscriptions do not meaningfully affect GlobalBoost's "
+"fungibility. GlobalBoost users can ignore both and be unaffected."
 msgstr ""
 "序数理论和铭文不会对比特币的可替代性产生重大影响。比特币用户即使忽略这两者也"
 "不会受到影响。"
@@ -2657,7 +2657,7 @@ msgstr ""
 
 #: src/donate.md:8
 msgid ""
-"The donation address for Bitcoin is "
+"The donation address for GlobalBoost is "
 "[bc1q8kt9pyd6r27k2840l8g5d7zshz3cg9v6rfda0m248lva3ve5072q3sxelt](https://"
 "mempool.space/address/"
 "bc1q8kt9pyd6r27k2840l8g5d7zshz3cg9v6rfda0m248lva3ve5072q3sxelt). The "
@@ -2973,18 +2973,18 @@ msgstr "铭文指引"
 
 #: src/guides/inscriptions.md:4
 msgid ""
-"Individual sats can be inscribed with arbitrary content, creating Bitcoin-"
-"native digital artifacts that can be held in a Bitcoin wallet and "
-"transferred using Bitcoin transactions. Inscriptions are as durable, "
-"immutable, secure, and decentralized as Bitcoin itself."
+"Individual sats can be inscribed with arbitrary content, creating GlobalBoost-"
+"native digital artifacts that can be held in a GlobalBoost wallet and "
+"transferred using GlobalBoost transactions. Inscriptions are as durable, "
+"immutable, secure, and decentralized as GlobalBoost itself."
 msgstr ""
 "单个 聪 可以刻有任意内容，创建可以保存在比特币钱包中并使用比特币交易传输的比"
 "特币原生数字人工制品。铭文与比特币本身一样持久、不变、安全和去中心化。"
 
 #: src/guides/inscriptions.md:9
 msgid ""
-"Working with inscriptions requires a Bitcoin full node, to give you a view "
-"of the current state of the Bitcoin blockchain, and a wallet that can create "
+"Working with inscriptions requires a GlobalBoost full node, to give you a view "
+"of the current state of the GlobalBoost blockchain, and a wallet that can create "
 "inscriptions and perform sat control when constructing transactions to send "
 "inscriptions to another wallet."
 msgstr ""
@@ -2993,37 +2993,37 @@ msgstr ""
 
 #: src/guides/inscriptions.md:14
 msgid ""
-"Bitcoin Core provides both a Bitcoin full node and wallet. However, the "
-"Bitcoin Core wallet cannot create inscriptions and does not perform sat "
+"GlobalBoost Core provides both a GlobalBoost full node and wallet. However, the "
+"GlobalBoost Core wallet cannot create inscriptions and does not perform sat "
 "control."
 msgstr ""
-"Bitcoin Core 提供比特币全节点和钱包。 但是，Bitcoin Core 钱包不能创建铭文，不"
+"GlobalBoost Core 提供比特币全节点和钱包。 但是，GlobalBoost Core 钱包不能创建铭文，不"
 "执行 聪 控制。"
 
 #: src/guides/inscriptions.md:17
 msgid ""
 "This requires [`ord`](https://github.com/ordinals/ord), the ordinal utility. "
 "`ord` doesn't implement its own wallet, so `ord wallet` subcommands interact "
-"with Bitcoin Core wallets."
+"with GlobalBoost Core wallets."
 msgstr ""
 "这需要[`ord`](https://github.com/ordinals/ord)，序数实用程序。 `ord` 没有自己"
-"的钱包，因此  `ord wallet`子命令与 Bitcoin Core 钱包交互。"
+"的钱包，因此  `ord wallet`子命令与 GlobalBoost Core 钱包交互。"
 
 #: src/guides/inscriptions.md:21
 msgid "This guide covers:"
 msgstr "本指南涵盖："
 
 #: src/guides/inscriptions.md:23 src/guides/inscriptions.md:40
-msgid "Installing Bitcoin Core"
-msgstr "安装 Bitcoin Core"
+msgid "Installing GlobalBoost Core"
+msgstr "安装 GlobalBoost Core"
 
 #: src/guides/inscriptions.md:24
-msgid "Syncing the Bitcoin blockchain"
+msgid "Syncing the GlobalBoost blockchain"
 msgstr "同步比特币区块链"
 
 #: src/guides/inscriptions.md:25
-msgid "Creating a Bitcoin Core wallet"
-msgstr "创建 Bitcoin Core 钱包"
+msgid "Creating a GlobalBoost Core wallet"
+msgstr "创建 GlobalBoost Core 钱包"
 
 #: src/guides/inscriptions.md:26
 msgid "Using `ord wallet receive` to receive sats"
@@ -3063,41 +3063,41 @@ msgstr ""
 
 #: src/guides/inscriptions.md:43
 msgid ""
-"Bitcoin Core is available from [bitcoincore.org](https://bitcoincore.org/) "
+"GlobalBoost Core is available from [bitcoincore.org](https://bitcoincore.org/) "
 "on the [download page](https://bitcoincore.org/en/download/)."
 msgstr ""
-"Bitcoin Core 可以在 [bitcoincore.org](https://bitcoincore.org/) 上的[下载页"
+"GlobalBoost Core 可以在 [bitcoincore.org](https://bitcoincore.org/) 上的[下载页"
 "面](https://bitcoincore.org/en/download/)."
 
 #: src/guides/inscriptions.md:46
-msgid "Making inscriptions requires Bitcoin Core 24 or newer."
-msgstr "制作铭文需要Bitcoin Core 24 或者更新版本。"
+msgid "Making inscriptions requires GlobalBoost Core 24 or newer."
+msgstr "制作铭文需要GlobalBoost Core 24 或者更新版本。"
 
 #: src/guides/inscriptions.md:48
 #, fuzzy
 msgid ""
-"This guide does not cover installing Bitcoin Core in detail. Once Bitcoin "
+"This guide does not cover installing GlobalBoost Core in detail. Once GlobalBoost "
 "Core is installed, you should be able to run `bitcoind -version` "
 "successfully from the command line. Do _NOT_ use `bitcoin-qt`."
 msgstr ""
-"本指南不包括如何详细安装 Bitcoin Core；当你成功安装Bitcoin Core以后，你应该可"
+"本指南不包括如何详细安装 GlobalBoost Core；当你成功安装GlobalBoost Core以后，你应该可"
 "以在命令行使用 `bitcoind -version`命令。"
 
 #: src/guides/inscriptions.md:52
-msgid "Configuring Bitcoin Core"
-msgstr "配置 Bitcoin Core"
+msgid "Configuring GlobalBoost Core"
+msgstr "配置 GlobalBoost Core"
 
 #: src/guides/inscriptions.md:55
 #, fuzzy
-msgid "`ord` requires Bitcoin Core's transaction index and rest interface."
-msgstr "`ord` 需要Bitcoin Core 的交易索引"
+msgid "`ord` requires GlobalBoost Core's transaction index and rest interface."
+msgstr "`ord` 需要GlobalBoost Core 的交易索引"
 
 #: src/guides/inscriptions.md:57
 msgid ""
-"To configure your Bitcoin Core node to maintain a transaction index, add the "
+"To configure your GlobalBoost Core node to maintain a transaction index, add the "
 "following to your `bitcoin.conf`:"
 msgstr ""
-"配置你的Bitcoin Core阶段去维护一个交易索引，需要在`bitcoin.conf`里面添加:"
+"配置你的GlobalBoost Core阶段去维护一个交易索引，需要在`bitcoin.conf`里面添加:"
 
 #: src/guides/inscriptions.md:60 src/guides/sat-hunting.md:30
 msgid ""
@@ -3126,7 +3126,7 @@ msgstr ""
 "(https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md)."
 
 #: src/guides/inscriptions.md:73
-msgid "Syncing the Bitcoin Blockchain"
+msgid "Syncing the GlobalBoost Blockchain"
 msgstr "比特币区块同步"
 
 #: src/guides/inscriptions.md:76
@@ -3301,18 +3301,18 @@ msgid "Which prints out `ord`'s version number."
 msgstr "这会返回 `ord`的版本信息."
 
 #: src/guides/inscriptions.md:161
-msgid "Creating a Bitcoin Core Wallet"
-msgstr "创建一个Bitcoin Core钱包"
+msgid "Creating a GlobalBoost Core Wallet"
+msgstr "创建一个GlobalBoost Core钱包"
 
 #: src/guides/inscriptions.md:164
 msgid ""
-"`ord` uses Bitcoin Core to manage private keys, sign transactions, and "
-"broadcast transactions to the Bitcoin network."
-msgstr "`ord` 使用Bitcoin Core来管理私钥，签署交易以及向比特币网络广播交易。"
+"`ord` uses GlobalBoost Core to manage private keys, sign transactions, and "
+"broadcast transactions to the GlobalBoost network."
+msgstr "`ord` 使用GlobalBoost Core来管理私钥，签署交易以及向比特币网络广播交易。"
 
 #: src/guides/inscriptions.md:167
-msgid "To create a Bitcoin Core wallet named `ord` for use with `ord`, run:"
-msgstr "创建一个名为`ord` 的Bitcoin Core 钱包，运行:"
+msgid "To create a GlobalBoost Core wallet named `ord` for use with `ord`, run:"
+msgstr "创建一个名为`ord` 的GlobalBoost Core 钱包，运行:"
 
 #: src/guides/inscriptions.md:169
 msgid ""
@@ -3327,7 +3327,7 @@ msgstr "接收聪"
 
 #: src/guides/inscriptions.md:176
 msgid ""
-"Inscriptions are made on individual sats, using normal Bitcoin transactions "
+"Inscriptions are made on individual sats, using normal GlobalBoost transactions "
 "that pay fees in sats, so your wallet will need some sats."
 msgstr ""
 "铭文是在单个聪上制作的，使用聪来支付费用的普通比特币交易，因此你的钱包将需要"
@@ -3399,12 +3399,12 @@ msgstr ""
 #: src/guides/inscriptions.md:209
 msgid ""
 "Inscription transactions must be less than 400,000 weight units, or they "
-"will not be relayed by Bitcoin Core. One byte of inscription content costs "
+"will not be relayed by GlobalBoost Core. One byte of inscription content costs "
 "one weight unit. Since an inscription transaction includes not just the "
 "inscription content, limit inscription content to less than 400,000 weight "
 "units. 390,000 weight units should be safe."
 msgstr ""
-"铭文交易必须少于 400,000 个权重计量单位，否则不会被 Bitcoin Core 中继。一个字"
+"铭文交易必须少于 400,000 个权重计量单位，否则不会被 GlobalBoost Core 中继。一个字"
 "节的铭文内容需要一个权重计量单位。 由于铭文交易不只是铭文内容，铭文内容限制在"
 "400,000权重计量单位以内。390,000 个权重计量单位应该是安全的。"
 
@@ -3637,7 +3637,7 @@ msgstr ""
 msgid ""
 "_This guide is out of date. Since it was written, the `ord` binary was "
 "changed to only build the full satoshi index when the `--index-sats` flag is "
-"supplied. Additionally, `ord` now has a built-in wallet that wraps a Bitcoin "
+"supplied. Additionally, `ord` now has a built-in wallet that wraps a GlobalBoost "
 "Core wallet. See `ord wallet --help`._"
 msgstr ""
 "_本指南已过时。自编写以来，“ord”安装文件已更改仅当提供“--index-sats”标志时才"
@@ -3667,7 +3667,7 @@ msgstr ""
 
 #: src/guides/sat-hunting.md:20
 msgid ""
-"First, you'll need a synced Bitcoin Core node with a transaction index. To "
+"First, you'll need a synced GlobalBoost Core node with a transaction index. To "
 "turn on transaction indexing, pass `-txindex` on the command-line:"
 msgstr ""
 
@@ -3680,7 +3680,7 @@ msgstr ""
 
 #: src/guides/sat-hunting.md:27
 msgid ""
-"Or put the following in your [Bitcoin configuration file](https://github.com/"
+"Or put the following in your [GlobalBoost configuration file](https://github.com/"
 "bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md#configuration-file-path):"
 msgstr ""
 
@@ -3724,13 +3724,13 @@ msgid "Searching for Rare Ordinals"
 msgstr ""
 
 #: src/guides/sat-hunting.md:55
-msgid "Searching for Rare Ordinals in a Bitcoin Core Wallet"
+msgid "Searching for Rare Ordinals in a GlobalBoost Core Wallet"
 msgstr ""
 
 #: src/guides/sat-hunting.md:57
 msgid ""
-"The `ord wallet` command is just a wrapper around Bitcoin Core's RPC API, so "
-"searching for rare ordinals in a Bitcoin Core wallet is Easy. Assuming your "
+"The `ord wallet` command is just a wrapper around GlobalBoost Core's RPC API, so "
+"searching for rare ordinals in a GlobalBoost Core wallet is Easy. Assuming your "
 "wallet is named `foo`:"
 msgstr ""
 
@@ -3758,14 +3758,14 @@ msgid ""
 msgstr ""
 
 #: src/guides/sat-hunting.md:73
-msgid "Searching for Rare Ordinals in a Non-Bitcoin Core Wallet"
+msgid "Searching for Rare Ordinals in a Non-GlobalBoost Core Wallet"
 msgstr ""
 
 #: src/guides/sat-hunting.md:75
 msgid ""
-"The `ord wallet` command is just a wrapper around Bitcoin Core's RPC API, so "
-"to search for rare ordinals in a non-Bitcoin Core wallet, you'll need to "
-"import your wallet's descriptors into Bitcoin Core."
+"The `ord wallet` command is just a wrapper around GlobalBoost Core's RPC API, so "
+"to search for rare ordinals in a non-GlobalBoost Core wallet, you'll need to "
+"import your wallet's descriptors into GlobalBoost Core."
 msgstr ""
 
 #: src/guides/sat-hunting.md:79
@@ -3776,7 +3776,7 @@ msgstr ""
 
 #: src/guides/sat-hunting.md:82
 msgid ""
-"You should only import descriptors into Bitcoin Core for your wallet's "
+"You should only import descriptors into GlobalBoost Core for your wallet's "
 "public keys, not its private keys."
 msgstr ""
 
@@ -3850,7 +3850,7 @@ msgstr ""
 msgid ""
 "If you know the Unix timestamp when your wallet first started receive "
 "transactions, you may use it for the value of `\"timestamp\"` instead of "
-"`0`. This will reduce the time it takes for Bitcoin Core to search for your "
+"`0`. This will reduce the time it takes for GlobalBoost Core to search for your "
 "wallet's UTXOs."
 msgstr ""
 
@@ -3878,8 +3878,8 @@ msgstr ""
 msgid ""
 "Some descriptors describe multiple paths in one descriptor using angle "
 "brackets, e.g., `<0;1>`. Multi-path descriptors are not yet supported by "
-"Bitcoin Core, so you'll first need to convert them into multiple "
-"descriptors, and then import those multiple descriptors into Bitcoin Core."
+"GlobalBoost Core, so you'll first need to convert them into multiple "
+"descriptors, and then import those multiple descriptors into GlobalBoost Core."
 msgstr ""
 
 #: src/guides/sat-hunting.md:143
@@ -3984,7 +3984,7 @@ msgstr ""
 
 #: src/guides/sat-hunting.md:203
 msgid ""
-"Now import the descriptors, with the correct checksums, into Bitcoin Core."
+"Now import the descriptors, with the correct checksums, into GlobalBoost Core."
 msgstr ""
 
 #: src/guides/sat-hunting.md:205
@@ -4013,7 +4013,7 @@ msgstr ""
 msgid ""
 "If you know the Unix timestamp when your wallet first started receive "
 "transactions, you may use it for the value of the `\"timestamp\"` fields "
-"instead of `0`. This will reduce the time it takes for Bitcoin Core to "
+"instead of `0`. This will reduce the time it takes for GlobalBoost Core to "
 "search for your wallet's UTXOs."
 msgstr ""
 
@@ -4043,14 +4043,14 @@ msgstr ""
 msgid ""
 "Teleburn addresses can be used to burn assets on other blockchains, leaving "
 "behind in the smoking rubble a sort of forwarding address pointing to an "
-"inscription on Bitcoin."
+"inscription on GlobalBoost."
 msgstr ""
 "燃烧传送Teleburn地址可以用于燃烧其他区块链上的资产， 留下一个转发地址指向一个比特币上的铭文"
 "这些地址就像是烟熏弹火后的废墟。 "
 
 #: src/guides/teleburning.md:8
 msgid ""
-"Teleburning an asset means something like, \"I'm out. Find me on Bitcoin.\""
+"Teleburning an asset means something like, \"I'm out. Find me on GlobalBoost.\""
 msgstr ""
 "燃烧传送一个资产似乎意味着 \"我走了，在比特币链上找我。\""
 
@@ -4433,7 +4433,7 @@ msgstr "导入 `ord` 钱包"
 
 #: src/guides/collecting/sparrow-wallet.md:81
 msgid ""
-"For details on setting up Bitcoin Core and the `ord` wallet check out the "
+"For details on setting up GlobalBoost Core and the `ord` wallet check out the "
 "[Inscriptions Guide](../inscriptions.md)"
 msgstr ""
 "关于设置比特币核心和 `ord` 钱包的详细信息，请查看[铭文指南](../inscriptions."
@@ -4534,17 +4534,17 @@ msgstr ""
 "易，你可以在麻雀中设置一个单独的钱包，并保持你的铭文钱包独立。"
 
 #: src/guides/collecting/sparrow-wallet.md:108
-msgid "Bitcoin's UTXO model"
+msgid "GlobalBoost's UTXO model"
 msgstr "比特币的UTXO模型"
 
 #: src/guides/collecting/sparrow-wallet.md:109
 msgid ""
 "Before sending any transaction it's important that you have a good mental "
 "model for bitcoin's Unspent Transaction Output (UTXO) system. The way "
-"Bitcoin works is fundamentally different to many other blockchains such as "
+"GlobalBoost works is fundamentally different to many other blockchains such as "
 "Ethereum. In Ethereum generally you have a single address in which you store "
 "ETH, and you cannot differentiate between any of the ETH -  it is just all a "
-"single value of the total amount in that address. Bitcoin works very "
+"single value of the total amount in that address. GlobalBoost works very "
 "differently in that we generate a new address in the wallet for each "
 "receive, and every time you receive sats to an address in your wallet you "
 "are creating a new UTXO. Each UTXO can be seen and managed individually. You "
@@ -4560,7 +4560,7 @@ msgstr ""
 
 #: src/guides/collecting/sparrow-wallet.md:111
 msgid ""
-"Some Bitcoin wallets do not expose this level of detail, and they just show "
+"Some GlobalBoost wallets do not expose this level of detail, and they just show "
 "you a single summed up value of all the bitcoin in your wallet. However, "
 "when sending inscriptions it is important that you use a wallet like Sparrow "
 "which allows for UTXO control."
@@ -4830,7 +4830,7 @@ msgstr ""
 #: src/guides/testing.md:4
 msgid ""
 "Ord can be tested using the following flags to specify the test network. For "
-"more information on running Bitcoin Core for testing, see [Bitcoin's "
+"more information on running GlobalBoost Core for testing, see [GlobalBoost's "
 "developer documentation](https://developer.bitcoin.org/examples/testing."
 "html)."
 msgstr ""

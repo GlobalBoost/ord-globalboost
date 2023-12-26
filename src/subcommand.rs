@@ -40,7 +40,7 @@ pub(crate) enum Subcommand {
   Server(server::Server),
   #[command(about = "Display information about a block's subsidy")]
   Subsidy(subsidy::Subsidy),
-  #[command(about = "Display Bitcoin supply information")]
+  #[command(about = "Display GlobalBoost supply information")]
   Supply,
   #[command(about = "Generate teleburn addresses")]
   Teleburn(teleburn::Teleburn),

@@ -6,7 +6,7 @@ pub struct Sat(pub u64);
 
 impl Sat {
   pub(crate) const LAST: Self = Self(Self::SUPPLY - 1);
-  pub(crate) const SUPPLY: u64 = 2399999997690000;
+  pub(crate) const SUPPLY: u64 = 2999999997690000;
 
   pub(crate) fn n(self) -> u64 {
     self.0

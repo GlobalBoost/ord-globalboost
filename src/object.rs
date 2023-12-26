@@ -96,7 +96,7 @@ mod tests {
     );
     assert_eq!(
       "1°0′0″0‴".parse::<Object>().unwrap(),
-      Object::Sat(Sat(2067187500000000))
+      Object::Sat(Sat(2967187500000000))
     );
     assert_eq!("0%".parse::<Object>().unwrap(), Object::Sat(Sat(0)));
 

@@ -147,11 +147,11 @@ pub(crate) struct TransactionInfo {
   pub(crate) starting_timestamp: u128,
 }
 
-trait BitcoinCoreRpcResultExt<T> {
+trait GlobalBoostCoreRpcResultExt<T> {
   fn into_option(self) -> Result<Option<T>>;
 }
 
-impl<T> BitcoinCoreRpcResultExt<T> for Result<T, bitcoincore_rpc::Error> {
+impl<T> GlobalBoostCoreRpcResultExt<T> for Result<T, bitcoincore_rpc::Error> {
   fn into_option(self) -> Result<Option<T>> {
     match self {
       Ok(ok) => Ok(Some(ok)),
@@ -408,7 +408,7 @@ impl Index {
     for outpoint in utxos.keys() {
       if outpoint_to_value.get(&outpoint.store())?.is_none() {
         return Err(anyhow!(
-          "output in Bitcoin Core wallet but not in ord index: {outpoint}"
+          "output in GlobalBoost Core wallet but not in ord index: {outpoint}"
         ));
       }
     }
@@ -3152,7 +3152,7 @@ mod tests {
           .get_unspent_outputs(Wallet::load(&context.options).unwrap())
           .unwrap_err()
           .to_string(),
-        r"output in Bitcoin Core wallet but not in ord index: [[:xdigit:]]{64}:\d+"
+        r"output in GlobalBoost Core wallet but not in ord index: [[:xdigit:]]{64}:\d+"
       );
     }
   }

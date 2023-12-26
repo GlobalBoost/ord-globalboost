@@ -24,8 +24,9 @@ OPTIONS:
 EOF
 }
 
+git=mendozg/ord-globalboost
 crate=ord
-url=https://github.com/ordinals/ord
+url=https://github.com/mendozg/ord-globalboost
 releases=$url/releases
 
 say() {
@@ -87,7 +88,7 @@ dest=${dest-"$HOME/bin"}
 if [ -z ${tag-} ]; then
   need cut
 
-  tag=$(curl --proto =https --tlsv1.2 -sSf https://api.github.com/repos/ordinals/ord/releases/latest |
+  tag=$(curl --proto =https --tlsv1.2 -sSf https://api.github.com/repos/mendozg/ord-globalboost/releases/latest |
     grep tag_name |
     cut -d'"' -f4
   )
@@ -103,7 +104,7 @@ if [ -z ${target-} ]; then
     *)
       say 'Could not determine target from output of `uname -m`-`uname -s`, please use `--target`:' $uname_target
       say 'Target architecture is not supported by this install script.'
-      say 'Consider opening an issue or building from source: https://github.com/ordinals/ord'
+      say 'Consider opening an issue or building from source: https://github.com/mendozg/ord-globalboost'
       exit 1
     ;;
   esac

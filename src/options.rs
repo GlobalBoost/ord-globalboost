@@ -7,11 +7,11 @@ use {super::*, bitcoincore_rpc::Auth};
     .args(&["chain_argument", "signet", "regtest", "testnet"]),
 ))]
 pub(crate) struct Options {
-  #[arg(long, help = "Load Bitcoin Core data dir from <BITCOIN_DATA_DIR>.")]
-  pub(crate) bitcoin_data_dir: Option<PathBuf>,
-  #[arg(long, help = "Authenticate to Bitcoin Core RPC with <RPC_PASS>.")]
+  #[arg(long, help = "Load GlobalBoost Core data dir from <globalboost_data_dir>.")]
+  pub(crate) globalboost_data_dir: Option<PathBuf>,
+  #[arg(long, help = "Authenticate to GlobalBoost Core RPC with <RPC_PASS>.")]
   pub(crate) bitcoin_rpc_pass: Option<String>,
-  #[arg(long, help = "Authenticate to Bitcoin Core RPC as <RPC_USER>.")]
+  #[arg(long, help = "Authenticate to GlobalBoost Core RPC as <RPC_USER>.")]
   pub(crate) bitcoin_rpc_user: Option<String>,
   #[arg(
     long = "chain",
@@ -24,7 +24,7 @@ pub(crate) struct Options {
   pub(crate) config: Option<PathBuf>,
   #[arg(long, help = "Load configuration from <CONFIG_DIR>.")]
   pub(crate) config_dir: Option<PathBuf>,
-  #[arg(long, help = "Load Bitcoin Core RPC cookie file from <COOKIE_FILE>.")]
+  #[arg(long, help = "Load GlobalBoost Core RPC cookie file from <COOKIE_FILE>.")]
   pub(crate) cookie_file: Option<PathBuf>,
   #[arg(long, help = "Store index in <DATA_DIR>.")]
   pub(crate) data_dir: Option<PathBuf>,
@@ -51,7 +51,7 @@ pub(crate) struct Options {
   pub(crate) index_sats: bool,
   #[arg(long, short, help = "Use regtest. Equivalent to `--chain regtest`.")]
   pub(crate) regtest: bool,
-  #[arg(long, help = "Connect to Bitcoin Core RPC at <RPC_URL>.")]
+  #[arg(long, help = "Connect to GlobalBoost Core RPC at <RPC_URL>.")]
   pub(crate) rpc_url: Option<String>,
   #[arg(long, short, help = "Use signet. Equivalent to `--chain signet`.")]
   pub(crate) signet: bool,
@@ -113,8 +113,8 @@ impl Options {
       return Ok(cookie_file.clone());
     }
 
-    let path = if let Some(bitcoin_data_dir) = &self.bitcoin_data_dir {
-      bitcoin_data_dir.clone()
+    let path = if let Some(globalboost_data_dir) = &self.globalboost_data_dir {
+      globalboost_data_dir.clone()
     } else if cfg!(target_os = "linux") {
       dirs::home_dir()
         .ok_or_else(|| anyhow!("failed to get cookie file path: could not get home dir"))?
@@ -122,7 +122,7 @@ impl Options {
     } else {
       dirs::data_dir()
         .ok_or_else(|| anyhow!("failed to get cookie file path: could not get data dir"))?
-        .join("Bitcoin")
+        .join("GlobalBoost")
     };
 
     let path = self.chain().join_with_data_dir(&path);
@@ -216,7 +216,7 @@ impl Options {
 
     let auth = self.auth()?;
 
-    log::info!("Connecting to Bitcoin Core at {}", self.rpc_url());
+    log::info!("Connecting to GlobalBoost Core at {}", self.rpc_url());
 
     if let Auth::CookieFile(cookie_file) = &auth {
       log::info!(
@@ -232,20 +232,20 @@ impl Options {
     }
 
     let client = Client::new(&rpc_url, auth)
-      .with_context(|| format!("failed to connect to Bitcoin Core RPC at {rpc_url}"))?;
+      .with_context(|| format!("failed to connect to GlobalBoost Core RPC at {rpc_url}"))?;
 
     let rpc_chain = match client.get_blockchain_info()?.chain.as_str() {
       "main" => Chain::Mainnet,
       "test" => Chain::Testnet,
       "regtest" => Chain::Regtest,
       "signet" => Chain::Signet,
-      other => bail!("Bitcoin RPC server on unknown chain: {other}"),
+      other => bail!("GlobalBoost RPC server on unknown chain: {other}"),
     };
 
     let ord_chain = self.chain();
 
     if rpc_chain != ord_chain {
-      bail!("Bitcoin RPC server is on {rpc_chain} but ord is on {ord_chain}");
+      bail!("GlobalBoost RPC server is on {rpc_chain} but ord is on {ord_chain}");
     }
 
     Ok(client)
@@ -259,7 +259,7 @@ impl Options {
     let bitcoin_version = client.version()?;
     if bitcoin_version < MIN_VERSION {
       bail!(
-        "Bitcoin Core {} or newer required, current version is {}",
+        "GlobalBoost Core {} or newer required, current version is {}",
         Self::format_bitcoin_core_version(MIN_VERSION),
         Self::format_bitcoin_core_version(bitcoin_version),
       );
@@ -404,10 +404,10 @@ mod tests {
   }
 
   #[test]
-  fn cookie_file_defaults_to_bitcoin_data_dir() {
+  fn cookie_file_defaults_to_globalboost_data_dir() {
     let arguments = Arguments::try_parse_from([
       "ord",
-      "--bitcoin-data-dir=foo",
+      "--globalboost-data-dir=foo",
       "--chain=signet",
       "index",
       "update",
@@ -555,7 +555,7 @@ mod tests {
 
     assert_eq!(
       options.bitcoin_rpc_client().unwrap_err().to_string(),
-      "Bitcoin RPC server is on testnet but ord is on mainnet"
+      "GlobalBoost RPC server is on testnet but ord is on mainnet"
     );
   }
 
@@ -789,12 +789,12 @@ mod tests {
   #[test]
   fn auth_with_cookie_file() {
     let options = Options {
-      cookie_file: Some("/var/lib/Bitcoin/.cookie".into()),
+      cookie_file: Some("/var/lib/GlobalBoost/.cookie".into()),
       ..Default::default()
     };
     assert_eq!(
       options.auth().unwrap(),
-      Auth::CookieFile("/var/lib/Bitcoin/.cookie".into())
+      Auth::CookieFile("/var/lib/GlobalBoost/.cookie".into())
     );
   }
 

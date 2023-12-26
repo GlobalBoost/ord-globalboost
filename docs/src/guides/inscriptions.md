@@ -2,27 +2,27 @@ Ordinal Inscription Guide
 =========================
 
 Individual sats can be inscribed with arbitrary content, creating
-Bitcoin-native digital artifacts that can be held in a Bitcoin wallet and
-transferred using Bitcoin transactions. Inscriptions are as durable, immutable,
-secure, and decentralized as Bitcoin itself.
+GlobalBoost-native digital artifacts that can be held in a GlobalBoost wallet and
+transferred using GlobalBoost transactions. Inscriptions are as durable, immutable,
+secure, and decentralized as GlobalBoost itself.
 
-Working with inscriptions requires a Bitcoin full node, to give you a view of
-the current state of the Bitcoin blockchain, and a wallet that can create
+Working with inscriptions requires a GlobalBoost full node, to give you a view of
+the current state of the GlobalBoost blockchain, and a wallet that can create
 inscriptions and perform sat control when constructing transactions to send
 inscriptions to another wallet.
 
-Bitcoin Core provides both a Bitcoin full node and wallet. However, the Bitcoin
+GlobalBoost Core provides both a GlobalBoost full node and wallet. However, the GlobalBoost
 Core wallet cannot create inscriptions and does not perform sat control.
 
 This requires [`ord`](https://github.com/ordinals/ord), the ordinal utility. `ord`
 doesn't implement its own wallet, so `ord wallet` subcommands interact with
-Bitcoin Core wallets.
+GlobalBoost Core wallets.
 
 This guide covers:
 
-1. Installing Bitcoin Core
-2. Syncing the Bitcoin blockchain
-3. Creating a Bitcoin Core wallet
+1. Installing GlobalBoost Core
+2. Syncing the GlobalBoost blockchain
+3. Creating a GlobalBoost Core wallet
 4. Using `ord wallet receive` to receive sats
 5. Creating inscriptions with `ord wallet inscribe`
 6. Sending inscriptions with `ord wallet send`
@@ -37,24 +37,24 @@ Server](https://discord.com/invite/87cjuz4FYg), or checking GitHub for relevant
 [issues](https://github.com/ordinals/ord/issues) and
 [discussions](https://github.com/ordinals/ord/discussions).
 
-Installing Bitcoin Core
+Installing GlobalBoost Core
 -----------------------
 
-Bitcoin Core is available from [bitcoincore.org](https://bitcoincore.org/) on
+GlobalBoost Core is available from [bitcoincore.org](https://bitcoincore.org/) on
 the [download page](https://bitcoincore.org/en/download/).
 
-Making inscriptions requires Bitcoin Core 24 or newer.
+Making inscriptions requires GlobalBoost Core 24 or newer.
 
-This guide does not cover installing Bitcoin Core in detail. Once Bitcoin Core
+This guide does not cover installing GlobalBoost Core in detail. Once GlobalBoost Core
 is installed, you should be able to run `bitcoind -version` successfully from
 the command line. Do *NOT* use `bitcoin-qt`.
 
-Configuring Bitcoin Core
+Configuring GlobalBoost Core
 ------------------------
 
-`ord` requires Bitcoin Core's transaction index and rest interface.
+`ord` requires GlobalBoost Core's transaction index and rest interface.
 
-To configure your Bitcoin Core node to maintain a transaction
+To configure your GlobalBoost Core node to maintain a transaction
 index, add the following to your `bitcoin.conf`:
 
 ```
@@ -70,7 +70,7 @@ bitcoind -txindex
 Details on creating or modifying your `bitcoin.conf` file can be found
 [here](https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md).
 
-Syncing the Bitcoin Blockchain
+Syncing the GlobalBoost Blockchain
 ------------------------------
 
 To sync the chain, run:
@@ -158,13 +158,13 @@ ord --version
 
 Which prints out `ord`'s version number.
 
-Creating a Bitcoin Core Wallet
+Creating a GlobalBoost Core Wallet
 ------------------------------
 
-`ord` uses Bitcoin Core to manage private keys, sign transactions, and
-broadcast transactions to the Bitcoin network.
+`ord` uses GlobalBoost Core to manage private keys, sign transactions, and
+broadcast transactions to the GlobalBoost network.
 
-To create a Bitcoin Core wallet named `ord` for use with `ord`, run:
+To create a GlobalBoost Core wallet named `ord` for use with `ord`, run:
 
 ```
 ord wallet create
@@ -173,7 +173,7 @@ ord wallet create
 Receiving Sats
 --------------
 
-Inscriptions are made on individual sats, using normal Bitcoin transactions
+Inscriptions are made on individual sats, using normal GlobalBoost transactions
 that pay fees in sats, so your wallet will need some sats.
 
 Get a new address from your `ord` wallet by running:
@@ -207,7 +207,7 @@ witness discount. To calculate the approximate fee that an inscribe transaction
 will pay, divide the content size by four and multiply by the fee rate.
 
 Inscription transactions must be less than 400,000 weight units, or they will
-not be relayed by Bitcoin Core. One byte of inscription content costs one
+not be relayed by GlobalBoost Core. One byte of inscription content costs one
 weight unit. Since an inscription transaction includes not just the inscription
 content, limit inscription content to less than 400,000 weight units. 390,000
 weight units should be safe.

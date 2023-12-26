@@ -2,7 +2,7 @@
 //!
 //! Ordinal-aware transaction construction has additional invariants,
 //! constraints, and concerns in addition to those of normal, non-ordinal-aware
-//! Bitcoin transactions.
+//! GlobalBoost transactions.
 //!
 //! This module contains a `TransactionBuilder` struct that facilitates
 //! constructing ordinal-aware transactions that take these additional

@@ -3,7 +3,7 @@ Sat Hunting
 
 *This guide is out of date. Since it was written, the `ord` binary was changed
 to only build the full satoshi index when the `--index-sats` flag is supplied.
-Additionally, `ord` now has a built-in wallet that wraps a Bitcoin Core wallet.
+Additionally, `ord` now has a built-in wallet that wraps a GlobalBoost Core wallet.
 See `ord wallet --help`.*
 
 Ordinal hunting is difficult but rewarding. The feeling of owning a wallet full
@@ -17,14 +17,14 @@ Preparation
 
 There are a few things you'll need before you start.
 
-1. First, you'll need a synced Bitcoin Core node with a transaction index. To
+1. First, you'll need a synced GlobalBoost Core node with a transaction index. To
    turn on transaction indexing, pass `-txindex` on the command-line:
 
    ```sh
    bitcoind -txindex
    ```
 
-   Or put the following in your [Bitcoin configuration
+   Or put the following in your [GlobalBoost configuration
    file](https://github.com/bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md#configuration-file-path):
 
    ```
@@ -52,10 +52,10 @@ There are a few things you'll need before you start.
 Searching for Rare Ordinals
 ---------------------------
 
-### Searching for Rare Ordinals in a Bitcoin Core Wallet
+### Searching for Rare Ordinals in a GlobalBoost Core Wallet
 
-The `ord wallet` command is just a wrapper around Bitcoin Core's RPC API, so
-searching for rare ordinals in a Bitcoin Core wallet is Easy. Assuming your
+The `ord wallet` command is just a wrapper around GlobalBoost Core's RPC API, so
+searching for rare ordinals in a GlobalBoost Core wallet is Easy. Assuming your
 wallet is named `foo`:
 
 1. Load your wallet:
@@ -70,16 +70,16 @@ wallet is named `foo`:
    ord --wallet foo --index-sats wallet sats
    ```
 
-### Searching for Rare Ordinals in a Non-Bitcoin Core Wallet
+### Searching for Rare Ordinals in a Non-GlobalBoost Core Wallet
 
-The `ord wallet` command is just a wrapper around Bitcoin Core's RPC API, so to
-search for rare ordinals in a non-Bitcoin Core wallet, you'll need to import
-your wallet's descriptors into Bitcoin Core.
+The `ord wallet` command is just a wrapper around GlobalBoost Core's RPC API, so to
+search for rare ordinals in a non-GlobalBoost Core wallet, you'll need to import
+your wallet's descriptors into GlobalBoost Core.
 
 [Descriptors](https://github.com/bitcoin/bitcoin/blob/master/doc/descriptors.md)
 describe the ways that wallets generate private keys and public keys.
 
-You should only import descriptors into Bitcoin Core for your wallet's public
+You should only import descriptors into GlobalBoost Core for your wallet's public
 keys, not its private keys.
 
 If your wallet's public key descriptor is compromised, an attacker will be able
@@ -118,7 +118,7 @@ your wallet of funds.
 
    If you know the Unix timestamp when your wallet first started receive
    transactions, you may use it for the value of `"timestamp"` instead of `0`.
-   This will reduce the time it takes for Bitcoin Core to search for your
+   This will reduce the time it takes for GlobalBoost Core to search for your
    wallet's UTXOs.
 
 5. Check that everything worked:
@@ -136,9 +136,9 @@ your wallet of funds.
 ### Searching for Rare Ordinals in a Wallet that Exports Multi-path Descriptors
 
 Some descriptors describe multiple paths in one descriptor using angle brackets,
-e.g., `<0;1>`. Multi-path descriptors are not yet supported by Bitcoin Core, so
+e.g., `<0;1>`. Multi-path descriptors are not yet supported by GlobalBoost Core, so
 you'll first need to convert them into multiple descriptors, and then import
-those multiple descriptors into Bitcoin Core.
+those multiple descriptors into GlobalBoost Core.
 
 1. First get the multi-path descriptor from your wallet. It will look something
    like this:
@@ -200,7 +200,7 @@ those multiple descriptors into Bitcoin Core.
    bitcoin-cli loadwallet foo-watch-only
    ```
 
-4. Now import the descriptors, with the correct checksums, into Bitcoin Core.
+4. Now import the descriptors, with the correct checksums, into GlobalBoost Core.
 
    ```sh
    bitcoin-cli \
@@ -219,7 +219,7 @@ those multiple descriptors into Bitcoin Core.
 
    If you know the Unix timestamp when your wallet first started receive
    transactions, you may use it for the value of the `"timestamp"` fields
-   instead of `0`. This will reduce the time it takes for Bitcoin Core to
+   instead of `0`. This will reduce the time it takes for GlobalBoost Core to
    search for your wallet's UTXOs.
 
 5. Check that everything worked:

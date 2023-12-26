@@ -40,7 +40,7 @@ This address is 2 of 4 multisig wallet with keys held by
 [rodarmor](https://twitter.com/rodarmor), and
 [ordinally](https://twitter.com/veryordinally).
 
-Bitcoin received will go towards funding maintenance and development of `ord`,
+GlobalBoost received will go towards funding maintenance and development of `ord`,
 as well as hosting costs for [ordinals.com](https://ordinals.com).
 
 Thank you for donating!
@@ -175,7 +175,7 @@ the tests, or in your shell configuration.
 We also try to follow a TDD (Test-Driven-Development) approach, which means we
 use tests as a way to get visibility into the code. Tests have to run fast for that
 reason so that the feedback loop between making a change, running the test and
-seeing the result is small. To facilitate that we created a mocked Bitcoin Core
+seeing the result is small. To facilitate that we created a mocked GlobalBoost Core
 instance in [test-bitcoincore-rpc](./test-bitcoincore-rpc).
 
 Syncing

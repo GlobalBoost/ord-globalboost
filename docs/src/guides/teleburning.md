@@ -3,9 +3,9 @@ Teleburning
 
 Teleburn addresses can be used to burn assets on other blockchains, leaving
 behind in the smoking rubble a sort of forwarding address pointing to an
-inscription on Bitcoin.
+inscription on GlobalBoost.
 
-Teleburning an asset means something like, "I'm out. Find me on Bitcoin."
+Teleburning an asset means something like, "I'm out. Find me on GlobalBoost."
 
 Teleburn addresses are derived from inscription IDs. They have no corresponding
 private key, so assets sent to a teleburn address are burned. Currently, only

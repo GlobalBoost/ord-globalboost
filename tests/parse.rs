@@ -5,7 +5,7 @@ fn name() {
   assert_eq!(
     CommandBuilder::new("parse a").run_and_deserialize_output::<Output>(),
     Output {
-      object: Object::Integer(2099999997689999),
+      object: Object::Integer(2999999997689999),
     }
   );
 }

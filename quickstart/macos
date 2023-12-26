@@ -19,8 +19,8 @@ fi
 bitcoind --version
 
 # write config
-if [[ ! -f ~/Library/Application\ Support/Bitcoin/bitcoin.conf ]]; then
-  printf 'txindex=1\nsignet=1\n' > ~/Library/Application\ Support/Bitcoin/bitcoin.conf
+if [[ ! -f ~/Library/Application\ Support/GlobalBoost/bitcoin.conf ]]; then
+  printf 'txindex=1\nsignet=1\n' > ~/Library/Application\ Support/GlobalBoost/bitcoin.conf
 fi
 
 # start bitcoind

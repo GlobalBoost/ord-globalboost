@@ -68,7 +68,7 @@ fn inscribe_fails_if_bitcoin_core_is_too_old() {
   CommandBuilder::new("wallet inscribe --file hello.txt --fee-rate 1")
     .write("hello.txt", "HELLOWORLD")
     .expected_exit_code(1)
-    .expected_stderr("error: Bitcoin Core 24.0.0 or newer required, current version is 23.0.0\n")
+    .expected_stderr("error: GlobalBoost Core 24.0.0 or newer required, current version is 23.0.0\n")
     .rpc_server(&rpc_server)
     .run_and_extract_stdout();
 }
@@ -139,7 +139,7 @@ fn regtest_has_no_content_size_limit() {
 #[test]
 fn mainnet_has_no_content_size_limit() {
   let rpc_server = test_bitcoincore_rpc::builder()
-    .network(Network::Bitcoin)
+    .network(Network::GlobalBoost)
     .build();
   create_wallet(&rpc_server);
   rpc_server.mine_blocks(1);

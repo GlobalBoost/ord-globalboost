@@ -40,9 +40,9 @@ impl Preview {
 
     let rpc_port = TcpListener::bind("127.0.0.1:0")?.local_addr()?.port();
 
-    let bitcoin_data_dir = tmpdir.path().join("bitcoin");
+    let globalboost_data_dir = tmpdir.path().join("bitcoin");
 
-    fs::create_dir(&bitcoin_data_dir)?;
+    fs::create_dir(&globalboost_data_dir)?;
 
     eprintln!("Spawning bitcoind…");
 
@@ -50,7 +50,7 @@ impl Preview {
       Command::new("bitcoind")
         .arg({
           let mut arg = OsString::from("-datadir=");
-          arg.push(&bitcoin_data_dir);
+          arg.push(&globalboost_data_dir);
           arg
         })
         .arg("-listen=0")
@@ -64,7 +64,7 @@ impl Preview {
 
     let options = Options {
       chain_argument: Chain::Regtest,
-      bitcoin_data_dir: Some(bitcoin_data_dir),
+      globalboost_data_dir: Some(globalboost_data_dir),
       data_dir: Some(tmpdir.path().into()),
       rpc_url: Some(format!("127.0.0.1:{rpc_port}")),
       index_sats: true,
@@ -77,7 +77,7 @@ impl Preview {
       }
 
       if attempt == 100 {
-        panic!("Bitcoin Core RPC did not respond");
+        panic!("GlobalBoost Core RPC did not respond");
       }
 
       thread::sleep(Duration::from_millis(50));

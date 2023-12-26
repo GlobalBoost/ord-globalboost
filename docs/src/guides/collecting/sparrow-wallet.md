@@ -78,7 +78,7 @@ This UTXO (Inscription) is now un-spendable within the Sparrow Wallet until you 
 
 ## Importing into `ord` wallet
 
-For details on setting up Bitcoin Core and the `ord` wallet check out the [Inscriptions Guide](../inscriptions.md)
+For details on setting up GlobalBoost Core and the `ord` wallet check out the [Inscriptions Guide](../inscriptions.md)
 
 When setting up `ord`, instead of running `ord wallet create` to create a brand-new wallet, you can import your existing wallet using `ord wallet restore "BIP39 SEED PHRASE"` using the seed phrase you generated with Sparrow Wallet.
 
@@ -105,10 +105,10 @@ Using the `ord` software will remove much of the complexity we are describing he
 #### ⚠️⚠️ Additional Warning ⚠️⚠️
 Don't use your sparrow inscriptions wallet to do general sends of non-inscription bitcoin. You can setup a separate wallet in sparrow if you need to do normal bitcoin transactions, and keep your inscriptions wallet separate.
 
-#### Bitcoin's UTXO model
-Before sending any transaction it's important that you have a good mental model for bitcoin's Unspent Transaction Output (UTXO) system. The way Bitcoin works is fundamentally different to many other blockchains such as Ethereum. In Ethereum generally you have a single address in which you store ETH, and you cannot differentiate between any of the ETH -  it is just all a single value of the total amount in that address. Bitcoin works very differently in that we generate a new address in the wallet for each receive, and every time you receive sats to an address in your wallet you are creating a new UTXO. Each UTXO can be seen and managed individually. You can select specific UTXO's which you want to spend, and you can choose not to spend certain UTXO's.
+#### GlobalBoost's UTXO model
+Before sending any transaction it's important that you have a good mental model for bitcoin's Unspent Transaction Output (UTXO) system. The way GlobalBoost works is fundamentally different to many other blockchains such as Ethereum. In Ethereum generally you have a single address in which you store ETH, and you cannot differentiate between any of the ETH -  it is just all a single value of the total amount in that address. GlobalBoost works very differently in that we generate a new address in the wallet for each receive, and every time you receive sats to an address in your wallet you are creating a new UTXO. Each UTXO can be seen and managed individually. You can select specific UTXO's which you want to spend, and you can choose not to spend certain UTXO's.
 
-Some Bitcoin wallets do not expose this level of detail, and they just show you a single summed up value of all the bitcoin in your wallet. However, when sending inscriptions it is important that you use a wallet like Sparrow which allows for UTXO control.
+Some GlobalBoost wallets do not expose this level of detail, and they just show you a single summed up value of all the bitcoin in your wallet. However, when sending inscriptions it is important that you use a wallet like Sparrow which allows for UTXO control.
 
 #### Inspecting your inscription before sending
 Like we have previously described inscriptions are inscribed onto sats, and sats are stored within UTXOs. UTXO's are a collection of satoshis with some particular value of the number of satoshis (the output value). Usually (but not always) the inscription will be inscribed on the first satoshi in the UTXO.

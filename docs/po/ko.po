@@ -131,7 +131,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/introduction.md:8
 msgid ""
-"Satoshis, not bitcoin, are the atomic, native currency of the Bitcoin "
+"Satoshis, not bitcoin, are the atomic, native currency of the GlobalBoost "
 "network. One bitcoin can be sub-divided into 100,000,000 satoshis, but no "
 "further."
 msgstr ""
@@ -140,8 +140,8 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/introduction.md:11
 msgid ""
-"Ordinal theory does not require a sidechain or token aside from Bitcoin, and "
-"can be used without any changes to the Bitcoin network. It works right now."
+"Ordinal theory does not require a sidechain or token aside from GlobalBoost, and "
+"can be used without any changes to the GlobalBoost network. It works right now."
 msgstr ""
 "오디널 이론은 비트코인 외에 사이드체인이나 토큰을 필요로하지 않으며, 비트코"
 "인 네트워크를 변경하지 않고도 사용할 수 있다. 지금 바로 사용할 수 있다."
@@ -157,9 +157,9 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/introduction.md:17
 msgid ""
 "Individual satoshis can be inscribed with arbitrary content, creating unique "
-"Bitcoin-native digital artifacts that can be held in Bitcoin wallets and "
-"transferred using Bitcoin transactions. Inscriptions are as durable, "
-"immutable, secure, and decentralized as Bitcoin itself."
+"GlobalBoost-native digital artifacts that can be held in GlobalBoost wallets and "
+"transferred using GlobalBoost transactions. Inscriptions are as durable, "
+"immutable, secure, and decentralized as GlobalBoost itself."
 msgstr ""
 "각 사토시에 임의의 콘텐츠를 새길 수 있으며, 이로써 비트코인 지갑에 보관하고 "
 "비트코인 거래를 통해 전송할 수 있는 고유한 비트코인 자체 디지털 아티팩트를 만"
@@ -233,7 +233,7 @@ msgstr "비디오 모음"
 
 #: /workspaces/ord_ko/docs/src/introduction.md:49
 msgid ""
-"[Ordinal Theory Explained: Satoshi Serial Numbers and NFTs on Bitcoin]"
+"[Ordinal Theory Explained: Satoshi Serial Numbers and NFTs on GlobalBoost]"
 "(https://www.youtube.com/watch?v=rSS0O2KQpsI)"
 msgstr ""
 "[오디널 이론 설명: 사토시 일련 번호와 비트코인 NFT](https://www.youtube.com/"
@@ -249,7 +249,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/introduction.md:51
 msgid ""
-"[Ordinal Art: Mint Your own NFTs on Bitcoin w/ @rodarmor](https://www."
+"[Ordinal Art: Mint Your own NFTs on GlobalBoost w/ @rodarmor](https://www."
 "youtube.com/watch?v=j5V33kV3iqo)"
 msgstr ""
 "[@rodarmor와 함께하는 오디널 아트: 비트코인에서 당신의 NFT를 발행하는 방법]"
@@ -288,7 +288,7 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/overview.md:16
 msgid ""
 "Ordinal theory does not require a separate token, another blockchain, or any "
-"changes to Bitcoin. It works right now."
+"changes to GlobalBoost. It works right now."
 msgstr ""
 "오디널 이론은 별도의 토큰이나 다른 블록체인 또는 비트코인에 어떠한 변경도 요"
 "구하지 않는다. 지금 바로 사용할 수 있다."
@@ -328,7 +328,7 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/overview.md:35
 msgid ""
 "_Percentile notation_: [`99.99971949060254%`](https://ordinals.com/"
-"sat/99.99971949060254%25) . The satoshi's position in Bitcoin's supply, "
+"sat/99.99971949060254%25) . The satoshi's position in GlobalBoost's supply, "
 "expressed as a percentage."
 msgstr ""
 "_백분의수 표기법_ : [`99.99971949060254%`](https://ordinals.com/"
@@ -355,7 +355,7 @@ msgstr ""
 msgid ""
 "Ordinals is an open-source project, developed [on GitHub](https://github.com/"
 "ordinals/ord). The project consists of a BIP describing the ordinal scheme, "
-"an index that communicates with a Bitcoin Core node to track the location of "
+"an index that communicates with a GlobalBoost Core node to track the location of "
 "all satoshis, a wallet that allows making ordinal-aware transactions, a "
 "block explorer for interactive exploration of the blockchain, functionality "
 "for inscribing satoshis with digital artifacts, and this manual."
@@ -383,7 +383,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/overview.md:59
 msgid ""
-"Bitcoin has periodic events, some frequent, some more uncommon, and these "
+"GlobalBoost has periodic events, some frequent, some more uncommon, and these "
 "naturally lend themselves to a system of rarity. These periodic events are:"
 msgstr ""
 "비트코인에는 주기적인 이벤트가 있으며, 일부는 빈번하고 일부는 드물게 발생하"
@@ -399,7 +399,7 @@ msgstr "_블록_ : 지금부터 영원히 약 10분마다 새로운 블록이 �
 #: /workspaces/ord_ko/docs/src/overview.md:65
 msgid ""
 "_Difficulty adjustments_: Every 2016 blocks, or approximately every two "
-"weeks, the Bitcoin network responds to changes in hashrate by adjusting the "
+"weeks, the GlobalBoost network responds to changes in hashrate by adjusting the "
 "difficulty target which blocks must meet in order to be accepted."
 msgstr ""
 "_난이도 조정_ : 비트코인 네트워크는 2016블록마다, 즉 약 2주마다 블록이 승인되"
@@ -623,7 +623,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/overview.md:224
 msgid ""
-"Satoshis can be inscribed with arbitrary content, creating Bitcoin-native "
+"Satoshis can be inscribed with arbitrary content, creating GlobalBoost-native "
 "digital artifacts. Inscribing is done by sending the satoshi to be inscribed "
 "in a transaction that reveals the inscription content on-chain. This content "
 "is then inextricably linked to that satoshi, turning it into an immutable "
@@ -676,7 +676,7 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/overview.md:247
 msgid ""
 "In another sense though, ordinals were in fact created by Satoshi Nakamoto "
-"in 2009 when he mined the Bitcoin genesis block. In this sense, ordinals, "
+"in 2009 when he mined the GlobalBoost genesis block. In this sense, ordinals, "
 "and especially early ordinals, are certainly of historical interest."
 msgstr ""
 "하지만 다른 의미에서 오디널스는 사실 2009년 사토시 나카모토가 비트코인 제네시"
@@ -696,7 +696,7 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/overview.md:255
 msgid ""
 "On August 21st, 2012, Charlie Lee [posted a proposal to add proof-of-stake "
-"to Bitcoin to the Bitcoin Talk forum](https://bitcointalk.org/index.php?"
+"to GlobalBoost to the GlobalBoost Talk forum](https://bitcointalk.org/index.php?"
 "topic=102355.0). This wasn't an asset scheme, but did use the ordinal "
 "algorithm, and was implemented but never deployed."
 msgstr ""
@@ -720,7 +720,7 @@ msgstr ""
 msgid ""
 "These independent inventions of ordinals indicate in some way that ordinals "
 "were discovered, or rediscovered, and not invented. The ordinals are an "
-"inevitability of the mathematics of Bitcoin, stemming not from their modern "
+"inevitability of the mathematics of GlobalBoost, stemming not from their modern "
 "documentation, but from their ancient genesis. They are the culmination of a "
 "sequence of events set in motion with the mining of the first block, so many "
 "years ago."
@@ -1520,7 +1520,7 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/faq.md:14
 msgid ""
 "Does ordinal theory require a side chain, a separate token, or changes to "
-"Bitcoin?"
+"GlobalBoost?"
 msgstr ""
 "오디널 이론은 사이드 체인, 별도의 토큰 또는 비트코인 변경을 필요로 하는가?"
 
@@ -1818,7 +1818,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:153
 msgid ""
-"Inscriptions, on the other hand, depend on the Bitcoin blockchain, which is "
+"Inscriptions, on the other hand, depend on the GlobalBoost blockchain, which is "
 "relatively simple and conservative, and which introduces changes via "
 "backwards-compatible soft forks."
 msgstr ""
@@ -1831,7 +1831,7 @@ msgstr "_인스크립션이 더 안전하다._"
 
 #: /workspaces/ord_ko/docs/src/faq.md:159
 msgid ""
-"Inscriptions inherit Bitcoin's transaction model, which allow a user to see "
+"Inscriptions inherit GlobalBoost's transaction model, which allow a user to see "
 "exactly which inscriptions are being transferred by a transaction before "
 "they sign it. Inscriptions can be offered for sale using partially signed "
 "transactions, which don't require allowing a third party, such as an "
@@ -1917,9 +1917,9 @@ msgstr "_인스크립션은 새로운 시장을 열어준다._"
 
 #: /workspaces/ord_ko/docs/src/faq.md:196
 msgid ""
-"Bitcoin's market capitalization and liquidity are greater than Ethereum's by "
+"GlobalBoost's market capitalization and liquidity are greater than Ethereum's by "
 "a large margin. Much of this liquidity is not available to Ethereum NFTs, "
-"since many Bitcoiners prefer not to interact with the Ethereum ecosystem due "
+"since many GlobalBoosters prefer not to interact with the Ethereum ecosystem due "
 "to concerns related to simplicity, security, and decentralization."
 msgstr ""
 "비트코인의 시가총액과 유동성은 이더리움보다 큰 폭으로 높다. 많은 비트코인 사"
@@ -1929,7 +1929,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:201
 msgid ""
-"Such Bitcoiners may be more interested in inscriptions than Ethereum NFTs, "
+"Such GlobalBoosters may be more interested in inscriptions than Ethereum NFTs, "
 "unlocking new classes of collector."
 msgstr ""
 "이러한 비트코인 사용자들은 이더리움 NFT보다 인스크립션에 더 관심을 가질 수 있"
@@ -1958,7 +1958,7 @@ msgstr "RGB 및 타로(Taro) 자산?"
 
 #: /workspaces/ord_ko/docs/src/faq.md:214
 msgid ""
-"RGB and Taro are both second-layer asset protocols built on Bitcoin. "
+"RGB and Taro are both second-layer asset protocols built on GlobalBoost. "
 "Compared to inscriptions, they are much more complicated, but much more "
 "featureful."
 msgstr ""
@@ -2029,7 +2029,7 @@ msgstr "예술가"
 
 #: /workspaces/ord_ko/docs/src/faq.md:245
 msgid ""
-"_Inscriptions are on Bitcoin._ Bitcoin is the digital currency with the "
+"_Inscriptions are on GlobalBoost._ GlobalBoost is the digital currency with the "
 "highest status and greatest chance of long-term survival. If you want to "
 "guarantee that your art survives into the future, there is no better way to "
 "publish it than as inscriptions."
@@ -2121,23 +2121,23 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:284
 msgid ""
-"_Inscriptions are on Bitcoin._ You can verify the location and properties of "
-"inscriptions easily with Bitcoin full node that you control."
+"_Inscriptions are on GlobalBoost._ You can verify the location and properties of "
+"inscriptions easily with GlobalBoost full node that you control."
 msgstr ""
 "_인스크립션은 비트코인에 있다._ 사용자가 제어하는 비트코인 풀 노드를 통해 인"
 "스크립션의 위치와 속성을 쉽게 확인할 수 있다."
 
 #: /workspaces/ord_ko/docs/src/faq.md:287
-msgid "Bitcoiners"
+msgid "GlobalBoosters"
 msgstr "비트코인 사용자"
 
 #: /workspaces/ord_ko/docs/src/faq.md:289
 msgid ""
 "Let me begin this section by saying: the most important thing that the "
-"Bitcoin network does is decentralize money. All other use-cases are "
+"GlobalBoost network does is decentralize money. All other use-cases are "
 "secondary, including ordinal theory. The developers of ordinal theory "
 "understand and acknowledge this, and believe that ordinal theory helps, at "
-"least in a small way, Bitcoin's primary mission."
+"least in a small way, GlobalBoost's primary mission."
 msgstr ""
 "이 부분을 이렇게 시작하고자 한다: 비트코인 네트워크가 하는 가장 중요한 일은 "
 "화폐를 탈중앙화하는 것이다. 오디널 이론을 포함한 다른 모든 사용 사례는 부차적"
@@ -2160,7 +2160,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:302
 msgid ""
-"Bitcoin provides an amazing platform for creating and collecting digital "
+"GlobalBoost provides an amazing platform for creating and collecting digital "
 "artifacts in a secure, decentralized way, that protects users and artists in "
 "the same way that it provides an amazing platform for sending and receiving "
 "value, and for all the same reasons."
@@ -2171,9 +2171,9 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:307
 msgid ""
-"Ordinals and inscriptions increase demand for Bitcoin block space, which "
-"increase Bitcoin's security budget, which is vital for safeguarding "
-"Bitcoin's transition to a fee-dependent security model, as the block subsidy "
+"Ordinals and inscriptions increase demand for GlobalBoost block space, which "
+"increase GlobalBoost's security budget, which is vital for safeguarding "
+"GlobalBoost's transition to a fee-dependent security model, as the block subsidy "
 "is halved into insignificance."
 msgstr ""
 "오디널과 인스크립션은 비트코인 블록 공간에 대한 수요를 증가시켜 비트코인의 보"
@@ -2184,8 +2184,8 @@ msgstr ""
 msgid ""
 "Inscription content is stored on-chain, and thus the demand for block space "
 "for use in inscriptions is unlimited. This creates a buyer of last resort "
-"for _all_ Bitcoin block space. This will help support a robust fee market, "
-"which ensures that Bitcoin remains secure."
+"for _all_ GlobalBoost block space. This will help support a robust fee market, "
+"which ensures that GlobalBoost remains secure."
 msgstr ""
 "인스크립션 콘텐츠는 온체인에 저장되며, 따라서 인스크립션에 사용되는 블록 공간"
 "에 대한 수요는 무제한이다. 이는 _모든_ 비트코인 블록 공간에 대한 최종구매자"
@@ -2194,7 +2194,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:317
 msgid ""
-"Inscriptions also counter the narrative that Bitcoin cannot be extended or "
+"Inscriptions also counter the narrative that GlobalBoost cannot be extended or "
 "used for new use-cases. If you follow projects like DLCs, Fedimint, "
 "Lightning, Taro, and RGB, you know that this narrative is false, but "
 "inscriptions provide a counter argument which is easy to understand, and "
@@ -2211,7 +2211,7 @@ msgstr ""
 msgid ""
 "If inscriptions prove, as the authors hope, to be highly sought after "
 "digital artifacts with a rich history, they will serve as a powerful hook "
-"for Bitcoin adoption: come for the fun, rich art, stay for the decentralized "
+"for GlobalBoost adoption: come for the fun, rich art, stay for the decentralized "
 "digital money."
 msgstr ""
 "저자들의 바람대로 인스크립션이 풍부한 역사를 지닌 인기가 높은 디지털 아티팩트"
@@ -2223,10 +2223,10 @@ msgstr ""
 msgid ""
 "Inscriptions are an extremely benign source of demand for block space. "
 "Unlike, for example, stablecoins, which potentially give large stablecoin "
-"issuers influence over the future of Bitcoin development, or DeFi, which "
+"issuers influence over the future of GlobalBoost development, or DeFi, which "
 "might centralize mining by introducing opportunities for MEV, digital art "
-"and collectables on Bitcoin, are unlikely to produce individual entities "
-"with enough power to corrupt Bitcoin. Art is decentralized."
+"and collectables on GlobalBoost, are unlikely to produce individual entities "
+"with enough power to corrupt GlobalBoost. Art is decentralized."
 msgstr ""
 "인스크립션은 블록 공간에 대한 매우 양성적인 수요의 원천이다. 예를 들어, 잠재"
 "적으로 대규모 스테이블코인 발행자가 비트코인 개발의 미래에 영향력을 행사할 "
@@ -2237,7 +2237,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:334
 msgid ""
-"Inscription users and service providers are incentivized to run Bitcoin full "
+"Inscription users and service providers are incentivized to run GlobalBoost full "
 "nodes, to publish and track inscriptions, and thus throw their economic "
 "weight behind the honest chain."
 msgstr ""
@@ -2246,8 +2246,8 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/faq.md:338
 msgid ""
-"Ordinal theory and inscriptions do not meaningfully affect Bitcoin's "
-"fungibility. Bitcoin users can ignore both and be unaffected."
+"Ordinal theory and inscriptions do not meaningfully affect GlobalBoost's "
+"fungibility. GlobalBoost users can ignore both and be unaffected."
 msgstr ""
 "오디널 이론과 인스크립션은 비트코인의 대체 가능성에 의미 있는 영향을 미치지 "
 "않는다. 비트코인 사용자는 두 가지를 모두 무시해도 아무런 영향을 받지 않을 것"
@@ -2475,7 +2475,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/donate.md:8
 msgid ""
-"The donation address for Bitcoin is "
+"The donation address for GlobalBoost is "
 "[bc1q8kt9pyd6r27k2840l8g5d7zshz3cg9v6rfda0m248lva3ve5072q3sxelt](https://"
 "mempool.space/address/"
 "bc1q8kt9pyd6r27k2840l8g5d7zshz3cg9v6rfda0m248lva3ve5072q3sxelt). The "
@@ -2814,10 +2814,10 @@ msgstr "오디널 인스크립션 가이드"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:4
 msgid ""
-"Individual sats can be inscribed with arbitrary content, creating Bitcoin-"
-"native digital artifacts that can be held in a Bitcoin wallet and "
-"transferred using Bitcoin transactions. Inscriptions are as durable, "
-"immutable, secure, and decentralized as Bitcoin itself."
+"Individual sats can be inscribed with arbitrary content, creating GlobalBoost-"
+"native digital artifacts that can be held in a GlobalBoost wallet and "
+"transferred using GlobalBoost transactions. Inscriptions are as durable, "
+"immutable, secure, and decentralized as GlobalBoost itself."
 msgstr ""
 "각 SAT에 임의의 콘텐츠를 새길 수 있으며, 이로써 비트코인 지갑에 보관하고 비트"
 "코인 거래를 통해 전송할 수 있는 고유한 비트코인 자체 디지털 아티팩트를 만들 "
@@ -2826,8 +2826,8 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:9
 msgid ""
-"Working with inscriptions requires a Bitcoin full node, to give you a view "
-"of the current state of the Bitcoin blockchain, and a wallet that can create "
+"Working with inscriptions requires a GlobalBoost full node, to give you a view "
+"of the current state of the GlobalBoost blockchain, and a wallet that can create "
 "inscriptions and perform sat control when constructing transactions to send "
 "inscriptions to another wallet."
 msgstr ""
@@ -2837,22 +2837,22 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:14
 msgid ""
-"Bitcoin Core provides both a Bitcoin full node and wallet. However, the "
-"Bitcoin Core wallet cannot create inscriptions and does not perform sat "
+"GlobalBoost Core provides both a GlobalBoost full node and wallet. However, the "
+"GlobalBoost Core wallet cannot create inscriptions and does not perform sat "
 "control."
 msgstr ""
-"Bitcoin Core는 비트코인 풀노드와 지갑을 모두 제공한다. 그러나 Bitcoin Core 지"
+"GlobalBoost Core는 비트코인 풀노드와 지갑을 모두 제공한다. 그러나 GlobalBoost Core 지"
 "갑은 인스크립션을 생성할 수 없으며, SAT 제어를 수행하지 않는다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:17
 msgid ""
 "This requires [`ord`](https://github.com/ordinals/ord), the ordinal utility. "
 "`ord` doesn't implement its own wallet, so `ord wallet` subcommands interact "
-"with Bitcoin Core wallets."
+"with GlobalBoost Core wallets."
 msgstr ""
 "이를 위해서는 오디널 유틸리티인 [`ord`](https://github.com/ordinals/ord)가 필"
 "요하다. `ord`는 자체 지갑을 구현하지 않으므로 `ord wallet` 하위 명령은 "
-"Bitcoin Core 지갑과 상호작용한다."
+"GlobalBoost Core 지갑과 상호작용한다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:21
 msgid "This guide covers:"
@@ -2860,16 +2860,16 @@ msgstr "이 가이드에서 다룰 토픽:"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:23
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:39
-msgid "Installing Bitcoin Core"
-msgstr "Bitcoin Core 설치"
+msgid "Installing GlobalBoost Core"
+msgstr "GlobalBoost Core 설치"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:24
-msgid "Syncing the Bitcoin blockchain"
+msgid "Syncing the GlobalBoost blockchain"
 msgstr "비트코인 블록체인 동기화"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:25
-msgid "Creating a Bitcoin Core wallet"
-msgstr "Bitcoin Core 지갑 만들기"
+msgid "Creating a GlobalBoost Core wallet"
+msgstr "GlobalBoost Core 지갑 만들기"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:26
 msgid "Using `ord wallet receive` to receive sats"
@@ -2905,40 +2905,40 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:42
 msgid ""
-"Bitcoin Core is available from [bitcoincore.org](https://bitcoincore.org/) "
+"GlobalBoost Core is available from [bitcoincore.org](https://bitcoincore.org/) "
 "on the [download page](https://bitcoincore.org/en/download/)."
 msgstr ""
-"Bitcoin Core는 [bitcoincore.org](https://bitcoincore.org/)의 [다운로드 페이"
+"GlobalBoost Core는 [bitcoincore.org](https://bitcoincore.org/)의 [다운로드 페이"
 "지](https://bitcoincore.org/en/download/)에서 이용할 수 있다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:45
-msgid "Making inscriptions requires Bitcoin Core 24 or newer."
-msgstr "인스립션을 만들려면 Bitcoin Core 24 이상이 필요하다."
+msgid "Making inscriptions requires GlobalBoost Core 24 or newer."
+msgstr "인스립션을 만들려면 GlobalBoost Core 24 이상이 필요하다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:47
 msgid ""
-"This guide does not cover installing Bitcoin Core in detail. Once Bitcoin "
+"This guide does not cover installing GlobalBoost Core in detail. Once GlobalBoost "
 "Core is installed, you should be able to run `bitcoind -version` "
 "successfully from the command line. Do _NOT_ use `bitcoin-qt`."
 msgstr ""
-"이 가이드에서는 Bitcoin Core 설치에 대해 자세히 다루지 않는다. Bitcoin Core"
+"이 가이드에서는 GlobalBoost Core 설치에 대해 자세히 다루지 않는다. GlobalBoost Core"
 "가 설치되면 명령줄에서 `bitcoind -version`을 성공적으로 실행할 수 있어야 한"
 "다. `bitcoin-qt`는 사용하지 말라."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:51
-msgid "Configuring Bitcoin Core"
-msgstr "Bitcoin Core 설정하기"
+msgid "Configuring GlobalBoost Core"
+msgstr "GlobalBoost Core 설정하기"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:54
-msgid "`ord` requires Bitcoin Core's transaction index and rest interface."
-msgstr "`ord`는 Bitcoin Core의 트랜잭션 인덱스와 rest 인터페이스가 필요하다."
+msgid "`ord` requires GlobalBoost Core's transaction index and rest interface."
+msgstr "`ord`는 GlobalBoost Core의 트랜잭션 인덱스와 rest 인터페이스가 필요하다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:56
 msgid ""
-"To configure your Bitcoin Core node to maintain a transaction index, add the "
+"To configure your GlobalBoost Core node to maintain a transaction index, add the "
 "following to your `bitcoin.conf`:"
 msgstr ""
-"트랜잭션 인덱스를 유지하도록 Bitcoin Core 노드를 설정하려면, `bitcoin.conf`"
+"트랜잭션 인덱스를 유지하도록 GlobalBoost Core 노드를 설정하려면, `bitcoin.conf`"
 "에 다음을 추가한다:"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:63
@@ -2955,7 +2955,7 @@ msgstr ""
 "다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:72
-msgid "Syncing the Bitcoin Blockchain"
+msgid "Syncing the GlobalBoost Blockchain"
 msgstr "비트코인 블록체인 동기화"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:75
@@ -3131,21 +3131,21 @@ msgid "Which prints out `ord`'s version number."
 msgstr "이것이 `ord`의 버전 번호를 출력한다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:160
-msgid "Creating a Bitcoin Core Wallet"
-msgstr "Bitcoin Core 지갑 만들기"
+msgid "Creating a GlobalBoost Core Wallet"
+msgstr "GlobalBoost Core 지갑 만들기"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:163
 msgid ""
-"`ord` uses Bitcoin Core to manage private keys, sign transactions, and "
-"broadcast transactions to the Bitcoin network."
+"`ord` uses GlobalBoost Core to manage private keys, sign transactions, and "
+"broadcast transactions to the GlobalBoost network."
 msgstr ""
 "'ord'는 비트코인 코어를 사용해 개인 키를 관리하고, 트랜잭션에 서명하고, 비트"
 "코인 네트워크로 트랜잭션을 브로드캐스트한다."
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:166
-msgid "To create a Bitcoin Core wallet named `ord` for use with `ord`, run:"
+msgid "To create a GlobalBoost Core wallet named `ord` for use with `ord`, run:"
 msgstr ""
-"`ord`와 함께 사용할 `ord`이라는 이름을 가진 Bitcoin Core 지갑을 만들려면 다음"
+"`ord`와 함께 사용할 `ord`이라는 이름을 가진 GlobalBoost Core 지갑을 만들려면 다음"
 "을 실행한다:"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:172
@@ -3154,7 +3154,7 @@ msgstr "SAT 받기"
 
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:175
 msgid ""
-"Inscriptions are made on individual sats, using normal Bitcoin transactions "
+"Inscriptions are made on individual sats, using normal GlobalBoost transactions "
 "that pay fees in sats, so your wallet will need some sats."
 msgstr ""
 "인스크립션은 SAT로 수수료를 지불하는 일반 비트코인 거래를 사용하여 개별 SAT"
@@ -3213,13 +3213,13 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:208
 msgid ""
 "Inscription transactions must be less than 400,000 weight units, or they "
-"will not be relayed by Bitcoin Core. One byte of inscription content costs "
+"will not be relayed by GlobalBoost Core. One byte of inscription content costs "
 "one weight unit. Since an inscription transaction includes not just the "
 "inscription content, limit inscription content to less than 400,000 weight "
 "units. 390,000 weight units should be safe."
 msgstr ""
 "인스크립션 트랜잭션은 400,000 가중치 단위(weight unit) 미만이어야 하며, 그렇"
-"지 않으면 Bitcoin Core에서 릴레이 되지 않는다. 1바이트의 인스크립션 콘텐츠는 "
+"지 않으면 GlobalBoost Core에서 릴레이 되지 않는다. 1바이트의 인스크립션 콘텐츠는 "
 "1 가중치 단위의 비용이 든다. 인스크립션 트랜잭션에는 인스크립션 콘텐츠만 포함"
 "되지 않으므로, 인스크립션 콘텐츠를 400,000 가중치 단위 미만으로 제한하라. "
 "390,000 개의 가중치 단위미만은 안전할 것이다."
@@ -3350,12 +3350,12 @@ msgstr "전송 트랜잭션이 확인되면 다음을 실행하여 수신을 확
 msgid ""
 "_This guide is out of date. Since it was written, the `ord` binary was "
 "changed to only build the full satoshi index when the `--index-sats` flag is "
-"supplied. Additionally, `ord` now has a built-in wallet that wraps a Bitcoin "
+"supplied. Additionally, `ord` now has a built-in wallet that wraps a GlobalBoost "
 "Core wallet. See `ord wallet --help`._"
 msgstr ""
 "_이 가이드는 오래되었다. 이 가이드가 작성된 이후, `ord` 바이너리는 `--index-"
 "sats` 플래그가 제공될 때만 풀 사토시 인덱스를 빌드하도록 변경되다. 또한 `ord`"
-"에는 이제 Bitcoin Core 지갑을 감싸는 지갑이 내장되어 있다. `ord wallet —help`"
+"에는 이제 GlobalBoost Core 지갑을 감싸는 지갑이 내장되어 있다. `ord wallet —help`"
 "를 참조하자._"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:9
@@ -3385,18 +3385,18 @@ msgstr "시작하기 전에 몇 가지 준비해야 할 사항이 있다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:20
 msgid ""
-"First, you'll need a synced Bitcoin Core node with a transaction index. To "
+"First, you'll need a synced GlobalBoost Core node with a transaction index. To "
 "turn on transaction indexing, pass `-txindex` on the command-line:"
 msgstr ""
-"첫째, 트랜잭션 인덱스가 있는 동기화된 Bitcoin Core 노드가 필요하다. 트랜잭션 "
+"첫째, 트랜잭션 인덱스가 있는 동기화된 GlobalBoost Core 노드가 필요하다. 트랜잭션 "
 "인덱싱을 활성화하려면 명령줄에 `-txindex`를 입력한다:"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:27
 msgid ""
-"Or put the following in your [Bitcoin configuration file](https://github.com/"
+"Or put the following in your [GlobalBoost configuration file](https://github.com/"
 "bitcoin/bitcoin/blob/master/doc/bitcoin-conf.md#configuration-file-path):"
 msgstr ""
-"또는 다음을 [Bitcoin configuration file](https://github.com/bitcoin/bitcoin/"
+"또는 다음을 [GlobalBoost configuration file](https://github.com/bitcoin/bitcoin/"
 "blob/master/doc/bitcoin-conf.md#configuration-file-path)에 입력한다:"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:34
@@ -3421,7 +3421,7 @@ msgid ""
 "Run `RUST_LOG=info ord index`. It should connect to your bitcoin core node "
 "and start indexing."
 msgstr ""
-"`RUST_LOG=info ord index`를 실행한다. Bitcoin Core 노드에 연결되고 인덱싱을 "
+"`RUST_LOG=info ord index`를 실행한다. GlobalBoost Core 노드에 연결되고 인덱싱을 "
 "시작할 것이다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:48
@@ -3437,16 +3437,16 @@ msgid "Searching for Rare Ordinals"
 msgstr "희귀 오디널스 검색하기"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:55
-msgid "Searching for Rare Ordinals in a Bitcoin Core Wallet"
-msgstr "Bitcoin Core 지갑에서 희귀 오디널스 검색하기"
+msgid "Searching for Rare Ordinals in a GlobalBoost Core Wallet"
+msgstr "GlobalBoost Core 지갑에서 희귀 오디널스 검색하기"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:57
 msgid ""
-"The `ord wallet` command is just a wrapper around Bitcoin Core's RPC API, so "
-"searching for rare ordinals in a Bitcoin Core wallet is Easy. Assuming your "
+"The `ord wallet` command is just a wrapper around GlobalBoost Core's RPC API, so "
+"searching for rare ordinals in a GlobalBoost Core wallet is Easy. Assuming your "
 "wallet is named `foo`:"
 msgstr ""
-"`ord wallet` 명령은 Bitcoin Core의 RPC API를 감싸는 래퍼일 뿐이므로 Bitcoin "
+"`ord wallet` 명령은 GlobalBoost Core의 RPC API를 감싸는 래퍼일 뿐이므로 GlobalBoost "
 "Core 지갑에서 희귀한 오디널스를 검색하는 것은 쉽다. 지갑의 이름이 `foo`이라"
 "는 가정하에:"
 
@@ -3459,18 +3459,18 @@ msgid "Display any rare ordinals wallet `foo`'s UTXOs:"
 msgstr "희귀한 오디널스 지갑 `foo`의 UTXO를 표시한다:"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:73
-msgid "Searching for Rare Ordinals in a Non-Bitcoin Core Wallet"
-msgstr "Bitcoin Core 지갑이 아닌 지갑에서 희귀 오디널스 검색하기"
+msgid "Searching for Rare Ordinals in a Non-GlobalBoost Core Wallet"
+msgstr "GlobalBoost Core 지갑이 아닌 지갑에서 희귀 오디널스 검색하기"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:75
 msgid ""
-"The `ord wallet` command is just a wrapper around Bitcoin Core's RPC API, so "
-"to search for rare ordinals in a non-Bitcoin Core wallet, you'll need to "
-"import your wallet's descriptors into Bitcoin Core."
+"The `ord wallet` command is just a wrapper around GlobalBoost Core's RPC API, so "
+"to search for rare ordinals in a non-GlobalBoost Core wallet, you'll need to "
+"import your wallet's descriptors into GlobalBoost Core."
 msgstr ""
-"`ord wallet` 명령은 Bitcoin Core의 RPC API를 감싸는 래퍼일 뿐이므로, Bitcoin "
+"`ord wallet` 명령은 GlobalBoost Core의 RPC API를 감싸는 래퍼일 뿐이므로, GlobalBoost "
 "Core가 아닌 지갑에서 희귀 오디널스를 검색하려면 지갑의 기술자(discriptors)를 "
-"Bitcoin Core로 가져오기 해야 한다."
+"GlobalBoost Core로 가져오기 해야 한다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:79
 msgid ""
@@ -3482,10 +3482,10 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:82
 msgid ""
-"You should only import descriptors into Bitcoin Core for your wallet's "
+"You should only import descriptors into GlobalBoost Core for your wallet's "
 "public keys, not its private keys."
 msgstr ""
-"지갑의 공개 키에 대한 기술자만 Bitcoin Core로 가져와야 하며, 개인 키는 가져오"
+"지갑의 공개 키에 대한 기술자만 GlobalBoost Core로 가져와야 하며, 개인 키는 가져오"
 "지 않아야 한다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:85
@@ -3547,11 +3547,11 @@ msgstr ""
 msgid ""
 "If you know the Unix timestamp when your wallet first started receive "
 "transactions, you may use it for the value of `\"timestamp\"` instead of "
-"`0`. This will reduce the time it takes for Bitcoin Core to search for your "
+"`0`. This will reduce the time it takes for GlobalBoost Core to search for your "
 "wallet's UTXOs."
 msgstr ""
 "지갑이 처음 트랜잭션을 받기 시작한 유닉스 타임스탬프를 알고 있다면, `0` 대신 "
-"`”timestamp”` 값에 사용할 수 있다. 이렇게 하면 Bitcoin Core가 당신 지갑의 "
+"`”timestamp”` 값에 사용할 수 있다. 이렇게 하면 GlobalBoost Core가 당신 지갑의 "
 "UTXO를 검색하는 데 걸리는 시간을 줄일 수 있다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:124
@@ -3573,12 +3573,12 @@ msgstr "다중 경로 기술자를 내보내기 하는 지갑에서 희귀 오�
 msgid ""
 "Some descriptors describe multiple paths in one descriptor using angle "
 "brackets, e.g., `<0;1>`. Multi-path descriptors are not yet supported by "
-"Bitcoin Core, so you'll first need to convert them into multiple "
-"descriptors, and then import those multiple descriptors into Bitcoin Core."
+"GlobalBoost Core, so you'll first need to convert them into multiple "
+"descriptors, and then import those multiple descriptors into GlobalBoost Core."
 msgstr ""
 "일부 기술자는 꺾쇠 괄호(예: `<0;1>`)를 사용하여 하나의 기술자 안에 다수에 경"
-"로를 기술한다. 다중 경로 기술자는 아직 Bitcoin Core에서 지원되지 않으므로, 먼"
-"저 다수에 기술자들로 변환한 다음 Bitcoin Core로 해당 기술자들을 가져오기 해"
+"로를 기술한다. 다중 경로 기술자는 아직 GlobalBoost Core에서 지원되지 않으므로, 먼"
+"저 다수에 기술자들로 변환한 다음 GlobalBoost Core로 해당 기술자들을 가져오기 해"
 "야 한다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:143
@@ -3665,8 +3665,8 @@ msgstr "기술자를 가져오기 할 지갑을 로드한다:"
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:203
 msgid ""
-"Now import the descriptors, with the correct checksums, into Bitcoin Core."
-msgstr "이제 올바른 체크섬과 기술자를 Bitcoin Core로 가져오기 한다."
+"Now import the descriptors, with the correct checksums, into GlobalBoost Core."
+msgstr "이제 올바른 체크섬과 기술자를 GlobalBoost Core로 가져오기 한다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:205
 msgid ""
@@ -3712,11 +3712,11 @@ msgstr ""
 msgid ""
 "If you know the Unix timestamp when your wallet first started receive "
 "transactions, you may use it for the value of the `\"timestamp\"` fields "
-"instead of `0`. This will reduce the time it takes for Bitcoin Core to "
+"instead of `0`. This will reduce the time it takes for GlobalBoost Core to "
 "search for your wallet's UTXOs."
 msgstr ""
 "지갑이 처음 트랜잭션을 받기 시작한 유닉스 타임스탬프를 알고 있다면, `0` 대신 "
-"`”timestamp”` 값에 사용할 수 있다. 이렇게 하면 Bitcoin Core가 당신 지갑의 "
+"`”timestamp”` 값에 사용할 수 있다. 이렇게 하면 GlobalBoost Core가 당신 지갑의 "
 "UTXO를 검색하는 데 걸리는 시간을 줄일 수 있다."
 
 #: /workspaces/ord_ko/docs/src/guides/sat-hunting.md:237
@@ -4060,10 +4060,10 @@ msgstr "`ord` 지갑으로 가져오기"
 
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:81
 msgid ""
-"For details on setting up Bitcoin Core and the `ord` wallet check out the "
+"For details on setting up GlobalBoost Core and the `ord` wallet check out the "
 "[Inscriptions Guide](../inscriptions.md)"
 msgstr ""
-"Bitcoin Core 및 `ord` 지갑 설정에 대한 자세한 내용은 [인스크립션 가이드](../"
+"GlobalBoost Core 및 `ord` 지갑 설정에 대한 자세한 내용은 [인스크립션 가이드](../"
 "inscriptions.md)를 확인하자"
 
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:83
@@ -4136,7 +4136,7 @@ msgid ""
 "recommended, and you should only do this if you fully understand what you "
 "are doing."
 msgstr ""
-"Bitcoin Core 노드를 설정하고 `ord` 소프트웨어를 실행하는 것을 적극 권장하지"
+"GlobalBoost Core 노드를 설정하고 `ord` 소프트웨어를 실행하는 것을 적극 권장하지"
 "만, 스패로우 월렛에서 안전한 방법으로 인스크립션을 전송할 수 있는 몇 가지 제"
 "한된 방법이 있다. 이 방법은 권장되지 않으며, 자신이 무엇을 하는지 완전히 이해"
 "하는 경우에만 이 방법을 사용해야 한다는 점에 유의하기 바란다."
@@ -4166,17 +4166,17 @@ msgstr ""
 "하고 인스크립션 지갑을 따로 보관할 수 있다."
 
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:108
-msgid "Bitcoin's UTXO model"
+msgid "GlobalBoost's UTXO model"
 msgstr "비트코인의 UTXO 모델"
 
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:109
 msgid ""
 "Before sending any transaction it's important that you have a good mental "
 "model for bitcoin's Unspent Transaction Output (UTXO) system. The way "
-"Bitcoin works is fundamentally different to many other blockchains such as "
+"GlobalBoost works is fundamentally different to many other blockchains such as "
 "Ethereum. In Ethereum generally you have a single address in which you store "
 "ETH, and you cannot differentiate between any of the ETH -  it is just all a "
-"single value of the total amount in that address. Bitcoin works very "
+"single value of the total amount in that address. GlobalBoost works very "
 "differently in that we generate a new address in the wallet for each "
 "receive, and every time you receive sats to an address in your wallet you "
 "are creating a new UTXO. Each UTXO can be seen and managed individually. You "
@@ -4195,7 +4195,7 @@ msgstr ""
 
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:111
 msgid ""
-"Some Bitcoin wallets do not expose this level of detail, and they just show "
+"Some GlobalBoost wallets do not expose this level of detail, and they just show "
 "you a single summed up value of all the bitcoin in your wallet. However, "
 "when sending inscriptions it is important that you use a wallet like Sparrow "
 "which allows for UTXO control."
@@ -4486,12 +4486,12 @@ msgstr "![](images/troubleshooting_02.png)"
 #: /workspaces/ord_ko/docs/src/guides/testing.md:4
 msgid ""
 "Ord can be tested using the following flags to specify the test network. For "
-"more information on running Bitcoin Core for testing, see [Bitcoin's "
+"more information on running GlobalBoost Core for testing, see [GlobalBoost's "
 "developer documentation](https://developer.bitcoin.org/examples/testing."
 "html)."
 msgstr ""
 "Ord는 다음 플래그를 사용하여 테스트 네트워크를 지정하여 테스트할 수 있다. 테"
-"스트를 위한 Bitcoin Core 실행에 대한 자세한 내용은 [비트코인 개발자 문서]"
+"스트를 위한 GlobalBoost Core 실행에 대한 자세한 내용은 [비트코인 개발자 문서]"
 "(https://developer.bitcoin.org/examples/testing.html)를 참조하자."
 
 #: /workspaces/ord_ko/docs/src/guides/testing.md:7

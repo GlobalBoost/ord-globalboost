@@ -14,7 +14,7 @@ Technical details are available in [the
 BIP](https://github.com/ordinals/ord/blob/master/bip.mediawiki).
 
 Ordinal theory does not require a separate token, another blockchain, or any
-changes to Bitcoin. It works right now.
+changes to GlobalBoost. It works right now.
 
 Ordinal numbers have a few different representations:
 
@@ -34,7 +34,7 @@ Ordinal numbers have a few different representations:
 
 - *Percentile notation*:
   [`99.99971949060254%`](https://ordinals.com/sat/99.99971949060254%25) .
-  The satoshi's position in Bitcoin's supply, expressed as a percentage.
+  The satoshi's position in GlobalBoost's supply, expressed as a percentage.
 
 - *Name*: [`satoshi`](https://ordinals.com/sat/satoshi). An encoding of the
   ordinal number using the characters `a` through `z`.
@@ -44,7 +44,7 @@ be attached to satoshis using ordinal numbers as stable identifiers.
 
 Ordinals is an open-source project, developed [on
 GitHub](https://github.com/ordinals/ord). The project consists of a BIP describing
-the ordinal scheme, an index that communicates with a Bitcoin Core node to
+the ordinal scheme, an index that communicates with a GlobalBoost Core node to
 track the location of all satoshis, a wallet that allows making ordinal-aware
 transactions, a block explorer for interactive exploration of the blockchain,
 functionality for inscribing satoshis with digital artifacts, and this manual.
@@ -56,14 +56,14 @@ Humans are collectors, and since satoshis can now be tracked and transferred,
 people will naturally want to collect them. Ordinal theorists can decide for
 themselves which sats are rare and desirable, but there are some hints…
 
-Bitcoin has periodic events, some frequent, some more uncommon, and these
+GlobalBoost has periodic events, some frequent, some more uncommon, and these
 naturally lend themselves to a system of rarity. These periodic events are:
 
 - *Blocks*: A new block is mined approximately every 10 minutes, from now until
   the end of time.
 
 - *Difficulty adjustments*: Every 2016 blocks, or approximately every two
-  weeks, the Bitcoin network responds to changes in hashrate by adjusting the
+  weeks, the GlobalBoost network responds to changes in hashrate by adjusting the
   difficulty target which blocks must meet in order to be accepted.
 
 - *Halvings*: Every 210,000 blocks, or roughly every four years, the amount of
@@ -221,7 +221,7 @@ based on criteria of their own devising.
 Inscriptions
 ------------
 
-Satoshis can be inscribed with arbitrary content, creating Bitcoin-native
+Satoshis can be inscribed with arbitrary content, creating GlobalBoost-native
 digital artifacts. Inscribing is done by sending the satoshi to be inscribed in
 a transaction that reveals the inscription content on-chain. This content is
 then inextricably linked to that satoshi, turning it into an immutable digital
@@ -245,7 +245,7 @@ specification was finalized. In this sense, they are not of historical
 interest.
 
 In another sense though, ordinals were in fact created by Satoshi Nakamoto in
-2009 when he mined the Bitcoin genesis block. In this sense, ordinals, and
+2009 when he mined the GlobalBoost genesis block. In this sense, ordinals, and
 especially early ordinals, are certainly of historical interest.
 
 Many ordinal theorists favor the latter view. This is not least because the
@@ -253,7 +253,7 @@ ordinals were independently discovered on at least two separate occasions, long
 before the era of modern NFTs began.
 
 On August 21st, 2012, Charlie Lee [posted a proposal to add proof-of-stake to
-Bitcoin to the Bitcoin Talk
+GlobalBoost to the GlobalBoost Talk
 forum](https://bitcointalk.org/index.php?topic=102355.0). This wasn't an asset
 scheme, but did use the ordinal algorithm, and was implemented but never
 deployed.
@@ -265,7 +265,7 @@ discussed but never implemented.
 
 These independent inventions of ordinals indicate in some way that ordinals
 were discovered, or rediscovered, and not invented. The ordinals are an
-inevitability of the mathematics of Bitcoin, stemming not from their modern
+inevitability of the mathematics of GlobalBoost, stemming not from their modern
 documentation, but from their ancient genesis. They are the culmination of a
 sequence of events set in motion with the mining of the first block, so many
 years ago.

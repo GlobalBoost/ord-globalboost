@@ -61,7 +61,7 @@ fn inscription_page() {
   <dt>id</dt>
   <dd class=monospace>{inscription}</dd>
   <dt>address</dt>
-  <dd class=monospace>bc1.*</dd>
+  <dd class=monospace>gb1.*</dd>
   <dt>output value</dt>
   <dd>10000</dd>
   <dt>preview</dt>
@@ -141,7 +141,7 @@ fn inscription_page_after_send() {
   );
 
   let txid = CommandBuilder::new(format!(
-    "wallet send --fee-rate 1 bc1qcqgs2pps4u4yedfyl5pysdjjncs8et5utseepv {inscription}"
+    "wallet send --fee-rate 1 gb1qcqgs2pps4u4yedfyl5pysdjjncs8et5utseepv {inscription}"
   ))
   .rpc_server(&rpc_server)
   .stdout_regex(".*")
@@ -154,7 +154,7 @@ fn inscription_page_after_send() {
   ord_server.assert_response_regex(
     format!("/inscription/{inscription}"),
     format!(
-      r".*<h1>Inscription 0</h1>.*<dt>address</dt>\s*<dd class=monospace>bc1qcqgs2pps4u4yedfyl5pysdjjncs8et5utseepv</dd>.*<dt>location</dt>\s*<dd class=monospace>{txid}:0:0</dd>.*",
+      r".*<h1>Inscription 0</h1>.*<dt>address</dt>\s*<dd class=monospace>gb1qcqgs2pps4u4yedfyl5pysdjjncs8et5utseepv</dd>.*<dt>location</dt>\s*<dd class=monospace>{txid}:0:0</dd>.*",
     ),
   )
 }
@@ -322,7 +322,7 @@ fn server_runs_with_rpc_user_and_pass_as_env_vars() {
 
   let mut child = Command::new(executable_path("ord"))
     .args(format!(
-      "--rpc-url {} --bitcoin-data-dir {} --data-dir {} server --http-port {port} --address 127.0.0.1",
+      "--rpc-url {} --globalboost-data-dir {} --data-dir {} server --http-port {port} --address 127.0.0.1",
       rpc_server.url(),
       tempdir.path().display(),
       tempdir.path().display()).to_args()

@@ -26,7 +26,7 @@ impl FromStr for Outgoing {
           \d+\.\d+
         )
         \ *
-        (bit|btc|cbtc|mbtc|msat|nbtc|pbtc|sat|satoshi|ubtc)
+        (bit|bsty|cbsty|mbsty|msat|nbsty|pbsty|sat|satoshi|ubsty)
         (s)?
         $
         "
