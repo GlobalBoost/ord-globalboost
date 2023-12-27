@@ -48,7 +48,7 @@ mod state;
 pub fn builder() -> Builder {
   Builder {
     fail_lock_unspent: false,
-    network: Network::GlobalBoost,
+    network: Network::Bitcoin,
     version: 240000,
   }
 }
@@ -264,7 +264,7 @@ impl Handle {
 
   pub fn network(&self) -> String {
     match self.state().network {
-      Network::GlobalBoost => "mainnet".to_string(),
+      Network::Bitcoin => "mainnet".to_string(),
       Network::Testnet => Network::Testnet.to_string(),
       Network::Signet => Network::Signet.to_string(),
       Network::Regtest => Network::Regtest.to_string(),

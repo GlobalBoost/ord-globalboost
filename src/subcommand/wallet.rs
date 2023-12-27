@@ -99,7 +99,7 @@ pub(crate) fn initialize_wallet(options: &Options, seed: [u8; 64]) -> Result {
   let derivation_path = DerivationPath::master()
     .child(ChildNumber::Hardened { index: 86 })
     .child(ChildNumber::Hardened {
-      index: u32::from(network != Network::GlobalBoost),
+      index: u32::from(network != Network::Bitcoin),
     })
     .child(ChildNumber::Hardened { index: 0 });
 
