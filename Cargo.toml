@@ -90,3 +90,4 @@ pulldown-cmark = "0.9.2"
 
 [patch.crates-io]
 bitcoin = { git = "https://github.com/mendozg/rust-globalboost" }
+ord-bitcoincore-rpc = { git = "https://github.com/mendozg/ord-bitcoincore-rpc" }
