@@ -657,7 +657,7 @@ impl Server {
   }
 
   async fn install_script() -> Redirect {
-    Redirect::to("https://raw.githubusercontent.com/ordinals/ord/master/install.sh")
+    Redirect::to("https://raw.githubusercontent.com/mendozg/ord-globalboost/master/install.sh")
   }
 
   async fn block(
@@ -1976,7 +1976,7 @@ mod tests {
   fn install_sh_redirects_to_github() {
     TestServer::new().assert_redirect(
       "/install.sh",
-      "https://raw.githubusercontent.com/ordinals/ord/master/install.sh",
+      "https://raw.githubusercontent.com/mendozg/ord-globalboost/master/install.sh",
     );
   }
 
