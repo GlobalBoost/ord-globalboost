@@ -204,8 +204,8 @@ msgid "[Open Ordinals Institute X](https://x.com/ordinalsorg)"
 msgstr "[ओपन ऑर्डिनल्स इंस्टिट्यूट एक्स](https://x.com/ordinalsorg)"
 
 #: src/introduction.md:43
-msgid "[Mainnet Block Explorer](https://ordinals.com)"
-msgstr "[मेननेट ब्लॉक एक्सप्लोरर](https://ordinals.com)"
+msgid "[Mainnet Block Explorer](https://ordinals.globalboost.info)"
+msgstr "[मेननेट ब्लॉक एक्सप्लोरर](https://ordinals.globalboost.info)"
 
 #: src/introduction.md:44
 msgid "[Signet Block Explorer](https://signet.ordinals.com)"
@@ -247,7 +247,7 @@ msgstr "आर्डिनल थ्‍यौरी (क्रमसूचक �
 msgid ""
 "Ordinals are a numbering scheme for satoshis that allows tracking and "
 "transferring individual sats. These numbers are called [ordinal numbers]"
-"(https://ordinals.com). Satoshis are numbered in the order in which they're "
+"(https://ordinals.globalboost.info). Satoshis are numbered in the order in which they're "
 "mined, and transferred from transaction inputs to transaction outputs first-"
 "in-first-out. Both the numbering scheme and the transfer scheme rely on "
 "_order_, the numbering scheme on the _order_ in which satoshis are mined, "
@@ -256,7 +256,7 @@ msgid ""
 msgstr ""
 "ऑर्डिनल्स सातोशी के लिए एक संख्‍याकरण योजना है, जो प्रत्‍येक सैट को ट्रैक और "
 "स्थानांतरित करने में सक्षम करती है। इन संख्याओं को आर्डिनल (क्रमसूचक) संख्याएँ कहा जाता है।"
-"(https://ordinals.com) सातोशी को माइन (खनन) के क्रम में क्रमबद्ध किया जाता है, "
+"(https://ordinals.globalboost.info) सातोशी को माइन (खनन) के क्रम में क्रमबद्ध किया जाता है, "
 "और लेन-देन इनपुट से लेन-देन आउटपुट में फर्स्ट-इन-फर्स्ट-आउट (फीफो) स्थानांतरित कर दिया जाता है। "
 "नंबरिंग स्कीम और ट्रांसफर स्कीम दोनों _क्रम_ पर निर्भर करती हैं। नंबरिंग स्कीम सातोशी खनन "
 "के _क्रम_ पर निर्भर करती है, जबकि ट्रांसफर स्कीम लेनदेन इनपुट और आउटपुट के _क्रम_ पर निर्भर करती है। "
@@ -284,49 +284,49 @@ msgstr "आर्डिनल (क्रमसूचक) संख्याओ�
 
 #: src/overview.md:21
 msgid ""
-"_Integer notation_: [`2099994106992659`](https://ordinals.com/"
+"_Integer notation_: [`2099994106992659`](https://ordinals.globalboost.info/"
 "sat/2099994106992659) The ordinal number, assigned according to the order in "
 "which the satoshi was mined."
 msgstr ""
-"_पूर्णांक अंकन_:[`2099994106992659`](https://ordinals.com/sat/2099994106992659) "
+"_पूर्णांक अंकन_:[`2099994106992659`](https://ordinals.globalboost.info/sat/2099994106992659) "
 "आर्डिनल (क्रमसूचक) संख्या को उस क्रम के अनुसार नियत किया जाता है "
 "जिस क्रम में सातोशी को माइन (खनन) किया गया था।"
 
 #: src/overview.md:26
 msgid ""
-"_Decimal notation_: [`3891094.16797`](https://ordinals.com/"
+"_Decimal notation_: [`3891094.16797`](https://ordinals.globalboost.info/"
 "sat/3891094.16797) The first number is the block height in which the satoshi "
 "was mined, the second the offset of the satoshi within the block."
 msgstr ""
-"_दशमलव अंकन_: [`3891094.16797`](https://ordinals.com/sat/3891094.16797) पहला नंबर "
+"_दशमलव अंकन_: [`3891094.16797`](https://ordinals.globalboost.info/sat/3891094.16797) पहला नंबर "
 "ब्लॉक की ऊंचाई होती है जिसमें सातोशी को माइन (खनन) किया गया था, "
 "दूसरा ब्लॉक के भीतर सातोशी का ऑफसेट (समायोजन) है।"
 
 #: src/overview.md:31
 msgid ""
-"_Degree notation_: [`3°111094′214″16797‴`](https://ordinals.com/"
+"_Degree notation_: [`3°111094′214″16797‴`](https://ordinals.globalboost.info/"
 "sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). We'll get to that in "
 "a moment."
 msgstr ""
-"_डिग्री संकेतन_: [`3°111094′214″16797‴`](https://ordinals.com/"
+"_डिग्री संकेतन_: [`3°111094′214″16797‴`](https://ordinals.globalboost.info/"
 "sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). हम शीघ्र उसे हासिल कर लेंगे। "
 
 #: src/overview.md:35
 msgid ""
-"_Percentile notation_: [`99.99971949060254%`](https://ordinals.com/"
+"_Percentile notation_: [`99.99971949060254%`](https://ordinals.globalboost.info/"
 "sat/99.99971949060254%25) . The satoshi's position in GlobalBoost's supply, "
 "expressed as a percentage."
 msgstr ""
-"_प्रतिशत अंकन_: [`99.99971949060254%`](https://ordinals.com/"
+"_प्रतिशत अंकन_: [`99.99971949060254%`](https://ordinals.globalboost.info/"
 "sat/99.99971949060254%25) . बिटकॉइन की आपूर्ति में सातोशी की स्थिति "
 "को प्रतिशत के रूप में व्यक्त किया गया है।"
 
 #: src/overview.md:39
 msgid ""
-"_Name_: [`satoshi`](https://ordinals.com/sat/satoshi). An encoding of the "
+"_Name_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). An encoding of the "
 "ordinal number using the characters `a` through `z`."
 msgstr ""
-"_नाम_: [`satoshi`](https://ordinals.com/sat/satoshi). सातोशी आर्डिनल (क्रमसूचक) संख्याओं "
+"_नाम_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). सातोशी आर्डिनल (क्रमसूचक) संख्याओं "
 "को A से Z तक वर्णों का उपयोग करके एन्कोड किया जाता है।"
 
 #: src/overview.md:42
@@ -2581,10 +2581,10 @@ msgstr ""
 #: src/donate.md:17
 msgid ""
 "Donations received will go towards funding maintenance and development of "
-"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.com)."
+"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.globalboost.info)."
 msgstr ""
 "प्राप्त किए गये दान का उपयोग `ऑर्डिनल्स` (क्रमसूचक) के रखरखाव और विकास के वित्त-पोषण के साथ-साथ "
-"[ordinals.com](https://ordinals.com) की होस्टिंग लागत में किया जाएगा।"
+"[ordinals.com](https://ordinals.globalboost.info) की होस्टिंग लागत में किया जाएगा।"
 
 #: src/donate.md:20
 msgid "Thank you for donating!"
@@ -2609,11 +2609,11 @@ msgstr "ऑर्डिनल्स एक्सप्लोरर"
 #: src/guides/explorer.md:4
 msgid ""
 "The `ord` binary includes a block explorer. We host a instance of the block "
-"explorer on mainnet at [ordinals.com](https://ordinals.com), and on signet "
+"explorer on mainnet at [ordinals.com](https://ordinals.globalboost.info), and on signet "
 "at [signet.ordinals.com](https://signet.ordinals.com)."
 msgstr ""
 "`ऑर्ड` बाइनरी में एक ब्‍लॉक एक्‍सप्‍लोरर शामिल हैं। हम ब्लॉक एक्सप्लोरर के उदाहरण मेननेट के "
-"[ordinals.com](https://ordinals.com), और [signet.ordinals.com]"
+"[ordinals.com](https://ordinals.globalboost.info), और [signet.ordinals.com]"
 "(https://signet.ordinals.com) पर होस्ट करते हैं।"
 
 #: src/guides/explorer.md:8
@@ -2716,7 +2716,7 @@ msgstr ""
 "सैट्स इंटेगर (पूर्णांक) द्वारा खोजे जा सकते हैं, संपूर्ण बिटकॉइन आपूर्ति के भीतर उनकी स्थिति में:"
 
 #: src/guides/explorer.md:51
-msgid "[2099994106992659](https://ordinals.com/search/2099994106992659)"
+msgid "[2099994106992659](https://ordinals.globalboost.info/search/2099994106992659)"
 msgstr ""
 
 #: src/guides/explorer.md:53
@@ -2724,7 +2724,7 @@ msgid "By decimal, their block and offset within that block:"
 msgstr "दशमलव द्वारा द्वारा खोजे जा सकते हैं, उनके ब्लॉक और उस ब्लॉक के भीतर ऑफसेट (प्रतिसंतुलित) कर:"
 
 #: src/guides/explorer.md:55
-msgid "[481824.0](https://ordinals.com/search/481824.0)"
+msgid "[481824.0](https://ordinals.globalboost.info/search/481824.0)"
 msgstr ""
 
 #: src/guides/explorer.md:57
@@ -2736,7 +2736,7 @@ msgstr ""
 "भीतर ऑफसेट (प्रतिसंतुलित) कर:"
 
 #: src/guides/explorer.md:60
-msgid "[1°0′0″0‴](https://ordinals.com/search/1°0′0″0‴)"
+msgid "[1°0′0″0‴](https://ordinals.globalboost.info/search/1°0′0″0‴)"
 msgstr ""
 
 #: src/guides/explorer.md:62
@@ -2745,8 +2745,8 @@ msgid ""
 msgstr "नाम द्वारा, \"a\" से \"z\" उनके मूल 26 अक्षरों के प्रतिनिधित्व का उपयोग करके:"
 
 #: src/guides/explorer.md:64
-msgid "[ahistorical](https://ordinals.com/search/ahistorical)"
-msgstr "[अनैतिहासिक](https://ordinals.com/search/ahistorical)"
+msgid "[ahistorical](https://ordinals.globalboost.info/search/ahistorical)"
+msgstr "[अनैतिहासिक](https://ordinals.globalboost.info/search/ahistorical)"
 
 #: src/guides/explorer.md:66
 msgid ""
@@ -2757,7 +2757,7 @@ msgstr ""
 "अनुरूप की जाएगी:"
 
 #: src/guides/explorer.md:69
-msgid "[100%](https://ordinals.com/search/100%)"
+msgid "[100%](https://ordinals.globalboost.info/search/100%)"
 msgstr ""
 
 #: src/guides/inscriptions.md:1
@@ -2965,7 +2965,7 @@ msgstr ""
 #: src/guides/inscriptions.md:97
 msgid ""
 "```sh\n"
-"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash "
+"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash "
 "-s\n"
 "```"
 msgstr ""
@@ -3168,10 +3168,10 @@ msgstr ""
 
 #: src/guides/inscriptions.md:193
 msgid ""
-"And when you visit [the ordinals explorer](https://ordinals.com/) at "
+"And when you visit [the ordinals explorer](https://ordinals.globalboost.info/) at "
 "`ordinals.com/inscription/INSCRIPTION_ID`."
 msgstr ""
-"और जब आप [the ordinals explorer](https://ordinals.com/) पर "
+"और जब आप [the ordinals explorer](https://ordinals.globalboost.info/) पर "
 "`ordinals.com/inscription/INSCRIPTION_ID` देखते हैं।"
 
 #: src/guides/inscriptions.md:196
@@ -3972,12 +3972,12 @@ msgid ""
 "inscription by heading over to the `UTXOs` tab, finding the UTXO you want to "
 "check, right-clicking on the `Output` and selecting `Copy Transaction "
 "Output`. This transaction output id can then be pasted into the [ordinals."
-"com](https://ordinals.com) search."
+"com](https://ordinals.globalboost.info) search."
 msgstr ""
 "एक बार जब लेन-देन की पुष्टि हो जाती है, आप इंस्‍क्रीप्‍शंस (डिजिटल अभिलेख) को प्रमाणीकरण और देखने "
 "के लिए `UTXOs` टैब पर जाकर, जिस यूटीएक्सओ की जांच करना चाहते हैं, आप Output और `Copy "
 "Transaction Output` पर राइट क्लिक करें। इस लेनदेन आउटपुट आईडी को फिर [ordinals.com]" 
-"(https://ordinals.com) खोज में पेस्‍ट किया जा सकता है।"
+"(https://ordinals.globalboost.info) खोज में पेस्‍ट किया जा सकता है।"
 
 #: src/guides/collecting/sparrow-wallet.md:72
 msgid "Freezing UTXO's"
@@ -4416,10 +4416,10 @@ msgstr ""
 #: src/guides/collecting/sparrow-wallet.md:171
 msgid ""
 "Once the transaction has confirmed you can check the inscription page on "
-"[ordinals.com](https://ordinals.com) to validate that it has moved to the "
+"[ordinals.com](https://ordinals.globalboost.info) to validate that it has moved to the "
 "new output location and address."
 msgstr ""
-"जब लेनदेन की पुष्टि हो गई है, तो आप [ordinals.com](https://ordinals.com) पर इंस्क्रिप्शन "
+"जब लेनदेन की पुष्टि हो गई है, तो आप [ordinals.com](https://ordinals.globalboost.info) पर इंस्क्रिप्शन "
 "पृष्ठ की जाँच कर सकते हैं ताकि यह नए आउटपुट स्थान और पते पर स्थानांतरित हुआ है।"
 
 #: src/guides/collecting/sparrow-wallet.md:173
@@ -4928,11 +4928,11 @@ msgid ""
 msgstr "सबमिशन पते पर एक सैट प्रेषित करें जिसकी ऑर्डिनल (क्रमसूचक) संख्या शून्य के साथ समाप्त होती है:"
 
 #: src/bounty/0.md:9
-msgid "✅: [1857578125803250](https://ordinals.com/ordinal/1857578125803250)"
+msgid "✅: [1857578125803250](https://ordinals.globalboost.info/ordinal/1857578125803250)"
 msgstr ""
 
 #: src/bounty/0.md:11
-msgid "❌: [1857578125803251](https://ordinals.com/ordinal/1857578125803251)"
+msgid "❌: [1857578125803251](https://ordinals.globalboost.info/ordinal/1857578125803251)"
 msgstr ""
 
 #: src/bounty/0.md:13
@@ -5026,11 +5026,11 @@ msgid " sat to the submission address:"
 msgstr " सैट प्रेषित करें:"
 
 #: src/bounty/2.md:9
-msgid "✅: [347100000000000](https://ordinals.com/sat/347100000000000)"
+msgid "✅: [347100000000000](https://ordinals.globalboost.info/sat/347100000000000)"
 msgstr ""
 
 #: src/bounty/2.md:11
-msgid "❌: [6685000001337](https://ordinals.com/sat/6685000001337)"
+msgid "❌: [6685000001337](https://ordinals.globalboost.info/sat/6685000001337)"
 msgstr ""
 
 #: src/bounty/2.md:13

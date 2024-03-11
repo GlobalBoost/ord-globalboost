@@ -220,8 +220,8 @@ msgid "[Open Ordinals Institute X](https://x.com/ordinalsorg)"
 msgstr "[오픈 오디널스 인스티튜트 X](https://x.com/ordinalsorg)"
 
 #: /workspaces/ord_ko/docs/src/introduction.md:43
-msgid "[Mainnet Block Explorer](https://ordinals.com)"
-msgstr "[메인넷 블록 탐색기](https://ordinals.com)"
+msgid "[Mainnet Block Explorer](https://ordinals.globalboost.info)"
+msgstr "[메인넷 블록 탐색기](https://ordinals.globalboost.info)"
 
 #: /workspaces/ord_ko/docs/src/introduction.md:44
 msgid "[Signet Block Explorer](https://signet.ordinals.com)"
@@ -263,7 +263,7 @@ msgstr "오디널 이론 개요"
 msgid ""
 "Ordinals are a numbering scheme for satoshis that allows tracking and "
 "transferring individual sats. These numbers are called [ordinal numbers]"
-"(https://ordinals.com). Satoshis are numbered in the order in which they're "
+"(https://ordinals.globalboost.info). Satoshis are numbered in the order in which they're "
 "mined, and transferred from transaction inputs to transaction outputs first-"
 "in-first-out. Both the numbering scheme and the transfer scheme rely on "
 "_order_, the numbering scheme on the _order_ in which satoshis are mined, "
@@ -271,7 +271,7 @@ msgid ""
 "Thus the name, _ordinals_."
 msgstr ""
 "오디널스는 개별 사토시(SAT)를 추적하고 전송할 수 있는 사토시를 위한 번호 체계"
-"이다. 이러한 번호를 [서수](https://ordinals.com)라고 한다. 사토시는 채굴된 순"
+"이다. 이러한 번호를 [서수](https://ordinals.globalboost.info)라고 한다. 사토시는 채굴된 순"
 "서대로 번호가 매겨지며, 트랜잭션 입력에서 트랜잭션 출력으로 선입선출 방식으"
 "로 전송된다. 번호 체계와 전송 체계는 모두 _순서_ 에 의존한다. 번호 체계는 사"
 "토시가 채굴되는 _순서_ 에, 그리고 전송 체계는 트랜잭션 입력과 출력의 _순서_ "
@@ -299,48 +299,48 @@ msgstr "서수는 몇 가지 다른 방법으로 표현할 수 있다:"
 
 #: /workspaces/ord_ko/docs/src/overview.md:21
 msgid ""
-"_Integer notation_: [`2099994106992659`](https://ordinals.com/"
+"_Integer notation_: [`2099994106992659`](https://ordinals.globalboost.info/"
 "sat/2099994106992659) The ordinal number, assigned according to the order in "
 "which the satoshi was mined."
 msgstr ""
-"_정수 표기법_ : [`2099994106992659`](https://ordinals.com/"
+"_정수 표기법_ : [`2099994106992659`](https://ordinals.globalboost.info/"
 "sat/2099994106992659) 사토시가 채굴된 순서에 따라 할당된 서수이다."
 
 #: /workspaces/ord_ko/docs/src/overview.md:26
 msgid ""
-"_Decimal notation_: [`3891094.16797`](https://ordinals.com/"
+"_Decimal notation_: [`3891094.16797`](https://ordinals.globalboost.info/"
 "sat/3891094.16797) The first number is the block height in which the satoshi "
 "was mined, the second the offset of the satoshi within the block."
 msgstr ""
-"_소수 표기법_ : [`3891094.16797`](https://ordinals.com/sat/3891094.16797) 첫 "
+"_소수 표기법_ : [`3891094.16797`](https://ordinals.globalboost.info/sat/3891094.16797) 첫 "
 "번째 숫자는 사토시가 채굴된 블록 높이(block height)이고, 두 번째 숫자는 블록 "
 "내 사토시의 오프셋(offset)이다."
 
 #: /workspaces/ord_ko/docs/src/overview.md:31
 msgid ""
-"_Degree notation_: [`3°111094′214″16797‴`](https://ordinals.com/"
+"_Degree notation_: [`3°111094′214″16797‴`](https://ordinals.globalboost.info/"
 "sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). We'll get to that in "
 "a moment."
 msgstr ""
-"_도 표기법_ : [`3°111094′214″16797‴`](https://ordinals.com/"
+"_도 표기법_ : [`3°111094′214″16797‴`](https://ordinals.globalboost.info/"
 "sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). 잠시 후에 설명하겠다."
 
 #: /workspaces/ord_ko/docs/src/overview.md:35
 msgid ""
-"_Percentile notation_: [`99.99971949060254%`](https://ordinals.com/"
+"_Percentile notation_: [`99.99971949060254%`](https://ordinals.globalboost.info/"
 "sat/99.99971949060254%25) . The satoshi's position in GlobalBoost's supply, "
 "expressed as a percentage."
 msgstr ""
-"_백분의수 표기법_ : [`99.99971949060254%`](https://ordinals.com/"
+"_백분의수 표기법_ : [`99.99971949060254%`](https://ordinals.globalboost.info/"
 "sat/99.99971949060254%25) . 비트코인 공급량에서 사토시가 차지하는 위치를 백분"
 "율로 표시한다."
 
 #: /workspaces/ord_ko/docs/src/overview.md:39
 msgid ""
-"_Name_: [`satoshi`](https://ordinals.com/sat/satoshi). An encoding of the "
+"_Name_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). An encoding of the "
 "ordinal number using the characters `a` through `z`."
 msgstr ""
-"_이름_ : [`satoshi`](https://ordinals.com/sat/satoshi). 문자 `a`부터 `z`까지"
+"_이름_ : [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). 문자 `a`부터 `z`까지"
 "를 사용하여 서수를 인코딩한다."
 
 #: /workspaces/ord_ko/docs/src/overview.md:42
@@ -2508,7 +2508,7 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/donate.md:17
 msgid ""
 "Donations received will go towards funding maintenance and development of "
-"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.com)."
+"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.globalboost.info)."
 msgstr ""
 "받은 기부금은 'ord'의 유지 및 개발 자금과 [ordinals.com](https://ordinals."
 "com)의 호스팅 비용으로 사용된다."
@@ -2536,11 +2536,11 @@ msgstr "오디널 탐색기"
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:4
 msgid ""
 "The `ord` binary includes a block explorer. We host a instance of the block "
-"explorer on mainnet at [ordinals.com](https://ordinals.com), and on signet "
+"explorer on mainnet at [ordinals.com](https://ordinals.globalboost.info), and on signet "
 "at [signet.ordinals.com](https://signet.ordinals.com)."
 msgstr ""
 "`ord` 바이너리에는 블록 탐색기가 포함되어 있다. 블록 탐색기의 인스턴스는 메인"
-"넷은 [ordinals.com](https://ordinals.com)에서, 시그넷은 [signet.ordinals.com]"
+"넷은 [ordinals.com](https://ordinals.globalboost.info)에서, 시그넷은 [signet.ordinals.com]"
 "(https://signet.ordinals.com)에서 호스팅된다."
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:8
@@ -2666,8 +2666,8 @@ msgstr ""
 "위치다:"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:56
-msgid "[2099994106992659](https://ordinals.com/search/2099994106992659)"
-msgstr "[2099994106992659](https://ordinals.com/search/2099994106992659)"
+msgid "[2099994106992659](https://ordinals.globalboost.info/search/2099994106992659)"
+msgstr "[2099994106992659](https://ordinals.globalboost.info/search/2099994106992659)"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:58
 msgid "By decimal, their block and offset within that block:"
@@ -2676,8 +2676,8 @@ msgstr ""
 "낸다:"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:60
-msgid "[481824.0](https://ordinals.com/search/481824.0)"
-msgstr "[481824.0](https://ordinals.com/search/481824.0)"
+msgid "[481824.0](https://ordinals.globalboost.info/search/481824.0)"
+msgstr "[481824.0](https://ordinals.globalboost.info/search/481824.0)"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:62
 msgid ""
@@ -2688,8 +2688,8 @@ msgstr ""
 "도 조정 이후 블록, 블록 내 오프셋을 나타낸다:"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:65
-msgid "[1°0′0″0‴](https://ordinals.com/search/1°0′0″0‴)"
-msgstr "[1°0′0″0‴](https://ordinals.com/search/1°0′0″0‴)"
+msgid "[1°0′0″0‴](https://ordinals.globalboost.info/search/1°0′0″0‴)"
+msgstr "[1°0′0″0‴](https://ordinals.globalboost.info/search/1°0′0″0‴)"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:67
 msgid ""
@@ -2699,8 +2699,8 @@ msgstr ""
 "로 표기하는 법이다:"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:69
-msgid "[ahistorical](https://ordinals.com/search/ahistorical)"
-msgstr "[ahistorical](https://ordinals.com/search/ahistorical)"
+msgid "[ahistorical](https://ordinals.globalboost.info/search/ahistorical)"
+msgstr "[ahistorical](https://ordinals.globalboost.info/search/ahistorical)"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:71
 msgid ""
@@ -2711,8 +2711,8 @@ msgstr ""
 "나 앞으로 발행될 비트코인의 공급량의 비율이다:"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:74
-msgid "[100%](https://ordinals.com/search/100%)"
-msgstr "[100%](https://ordinals.com/search/100%)"
+msgid "[100%](https://ordinals.globalboost.info/search/100%)"
+msgstr "[100%](https://ordinals.globalboost.info/search/100%)"
 
 #: /workspaces/ord_ko/docs/src/guides/explorer.md:76
 msgid "JSON-API"
@@ -3113,12 +3113,12 @@ msgstr "명령줄에서 다음을 사용하여 미리 빌드된 최신 바이너
 #: /workspaces/ord_ko/docs/src/guides/inscriptions.md:148
 msgid ""
 "```sh\n"
-"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash "
+"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash "
 "-s\n"
 "```"
 msgstr ""
 "```sh\n"
-"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash "
+"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash "
 "-s\n"
 "```"
 
@@ -4016,12 +4016,12 @@ msgid ""
 "inscription by heading over to the `UTXOs` tab, finding the UTXO you want to "
 "check, right-clicking on the `Output` and selecting `Copy Transaction "
 "Output`. This transaction output id can then be pasted into the [ordinals."
-"com](https://ordinals.com) search."
+"com](https://ordinals.globalboost.info) search."
 msgstr ""
 "트랜잭션이 확인되면 `UTXOs` 탭으로 이동하여 확인하려는 UTXO를 찾아 `Output`"
 "을 마우스 오른쪽 버튼으로 클릭하고 `Copy Transaction Output`를 선택하여 인스"
 "크립션의 유효성을 검사하고 확인할 수 있다. 그런 다음 이 트랜잭션 출력 ID를 "
-"[ordinals.com](https://ordinals.com) 검색에 붙여넣을 수 있다."
+"[ordinals.com](https://ordinals.globalboost.info) 검색에 붙여넣을 수 있다."
 
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:72
 msgid "Freezing UTXO's"
@@ -4442,10 +4442,10 @@ msgstr ""
 #: /workspaces/ord_ko/docs/src/guides/collecting/sparrow-wallet.md:171
 msgid ""
 "Once the transaction has confirmed you can check the inscription page on "
-"[ordinals.com](https://ordinals.com) to validate that it has moved to the "
+"[ordinals.com](https://ordinals.globalboost.info) to validate that it has moved to the "
 "new output location and address."
 msgstr ""
-"트랜잭션이 확인되면 [ordinals.com](https://ordinals.com)에서 인스크립션 페이"
+"트랜잭션이 확인되면 [ordinals.com](https://ordinals.globalboost.info)에서 인스크립션 페이"
 "지를 확인하여 새 출력 위치(output location) 및 주소로 이동했는지 확인할 수 있"
 "다."
 
@@ -4860,12 +4860,12 @@ msgid ""
 msgstr "서수가 0으로 끝나는 SAT를 제출 주소로 보낸다:"
 
 #: /workspaces/ord_ko/docs/src/bounty/0.md:9
-msgid "✅: [1857578125803250](https://ordinals.com/ordinal/1857578125803250)"
-msgstr "✅: [1857578125803250](https://ordinals.com/ordinal/1857578125803250)"
+msgid "✅: [1857578125803250](https://ordinals.globalboost.info/ordinal/1857578125803250)"
+msgstr "✅: [1857578125803250](https://ordinals.globalboost.info/ordinal/1857578125803250)"
 
 #: /workspaces/ord_ko/docs/src/bounty/0.md:11
-msgid "❌: [1857578125803251](https://ordinals.com/ordinal/1857578125803251)"
-msgstr "❌: [1857578125803251](https://ordinals.com/ordinal/1857578125803251)"
+msgid "❌: [1857578125803251](https://ordinals.globalboost.info/ordinal/1857578125803251)"
+msgstr "❌: [1857578125803251](https://ordinals.globalboost.info/ordinal/1857578125803251)"
 
 #: /workspaces/ord_ko/docs/src/bounty/0.md:13
 msgid "The sat must be the first sat of the output you send."
@@ -4971,12 +4971,12 @@ msgid " sat to the submission address:"
 msgstr " SAT를 보낸다:"
 
 #: /workspaces/ord_ko/docs/src/bounty/2.md:9
-msgid "✅: [347100000000000](https://ordinals.com/sat/347100000000000)"
-msgstr "✅: [347100000000000](https://ordinals.com/sat/347100000000000)"
+msgid "✅: [347100000000000](https://ordinals.globalboost.info/sat/347100000000000)"
+msgstr "✅: [347100000000000](https://ordinals.globalboost.info/sat/347100000000000)"
 
 #: /workspaces/ord_ko/docs/src/bounty/2.md:11
-msgid "❌: [6685000001337](https://ordinals.com/sat/6685000001337)"
-msgstr "❌: [6685000001337](https://ordinals.com/sat/6685000001337)"
+msgid "❌: [6685000001337](https://ordinals.globalboost.info/sat/6685000001337)"
+msgstr "❌: [6685000001337](https://ordinals.globalboost.info/sat/6685000001337)"
 
 #: /workspaces/ord_ko/docs/src/bounty/2.md:13
 msgid ""
@@ -5176,8 +5176,8 @@ msgstr "미수령!"
 
 #, fuzzy
 #~ msgid ""
-#~ "And when you visit [the ordinals explorer](https://ordinals.com/) at "
+#~ "And when you visit [the ordinals explorer](https://ordinals.globalboost.info/) at "
 #~ "`ordinals.com/inscription/INSCRIPTION_ID`."
 #~ msgstr ""
-#~ "그리고 [오디널스 익스플로러](https://ordinals.com/)에서 `ordinals.com/"
+#~ "그리고 [오디널스 익스플로러](https://ordinals.globalboost.info/)에서 `ordinals.com/"
 #~ "inscription/INSCRIPTION_ID`를 방문하면 됩니다."

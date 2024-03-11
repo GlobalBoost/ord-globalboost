@@ -68,7 +68,7 @@ where
     if let Some(domain) = &self.config.domain {
       format!("https://{domain}/static/favicon.png")
     } else {
-      "https://ordinals.com/static/favicon.png".into()
+      "https://ordinals.globalboost.info/static/favicon.png".into()
     }
   }
 

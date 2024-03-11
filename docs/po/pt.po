@@ -217,8 +217,8 @@ msgid "[Open Ordinals Institute X](https://x.com/ordinalsorg)"
 msgstr "[X (Twitter) do Instituto Open Ordinals](https://x.com/ordinalsorg)"
 
 #: src/introduction.md:43
-msgid "[Mainnet Block Explorer](https://ordinals.com)"
-msgstr "[Explorador de Blocos Mainnet](https://ordinals.com)"
+msgid "[Mainnet Block Explorer](https://ordinals.globalboost.info)"
+msgstr "[Explorador de Blocos Mainnet](https://ordinals.globalboost.info)"
 
 #: src/introduction.md:44
 msgid "[Signet Block Explorer](https://signet.ordinals.com)"
@@ -259,7 +259,7 @@ msgstr "Visão Geral da Teoria Ordinal"
 msgid ""
 "Ordinals are a numbering scheme for satoshis that allows tracking and "
 "transferring individual sats. These numbers are called [ordinal "
-"numbers](https://ordinals.com). Satoshis are numbered in the order in which "
+"numbers](https://ordinals.globalboost.info). Satoshis are numbered in the order in which "
 "they're mined, and transferred from transaction inputs to transaction "
 "outputs first-in-first-out. Both the numbering scheme and the transfer "
 "scheme rely on _order_, the numbering scheme on the _order_ in which "
@@ -268,7 +268,7 @@ msgid ""
 msgstr ""
 "Os Ordinals, ou Ordinais, são um esquema de numeração para satoshis que "
 "permite rastrear e transferir sats individuais. Esses números são chamados "
-"[números ordinais](https://ordinals.com/). Os satoshis são numerados na ordem "
+"[números ordinais](https://ordinals.globalboost.info/). Os satoshis são numerados na ordem "
 "em que são minerados, e quando transferidos das entradas de uma transação para as saídas,"
 "nos baseamos no modelo FIFO (First In, First Out). Tanto o esquema de numeração quanto "
 "o esquema de transferência dependem da _ordem_; o esquema de numeração se baseia na _ordem_ "
@@ -298,51 +298,51 @@ msgstr "Os números ordinais têm várias representações:"
 #: src/overview.md:21
 msgid ""
 "_Integer notation_: "
-"[`2099994106992659`](https://ordinals.com/sat/2099994106992659) The ordinal "
+"[`2099994106992659`](https://ordinals.globalboost.info/sat/2099994106992659) The ordinal "
 "number, assigned according to the order in which the satoshi was mined."
 msgstr "_Notação de Inteiro (Integer)_: "
-"[`2099994106992659`](https://ordinals.com/sat/2099994106992659) O número "
+"[`2099994106992659`](https://ordinals.globalboost.info/sat/2099994106992659) O número "
 "ordinal, atribuído de acordo com a ordem em que o satoshi foi minerado."
 
 #: src/overview.md:26
 msgid ""
 "_Decimal notation_: "
-"[`3891094.16797`](https://ordinals.com/sat/3891094.16797) The first number "
+"[`3891094.16797`](https://ordinals.globalboost.info/sat/3891094.16797) The first number "
 "is the block height in which the satoshi was mined, the second the offset of "
 "the satoshi within the block."
 msgstr ""
 "_Notação decimal_: "
-"[` 3891094.16797`](https://ordinals.com/sat/3891094.16797) O primeiro número "
+"[` 3891094.16797`](https://ordinals.globalboost.info/sat/3891094.16797) O primeiro número "
 "é a altura do bloco em que o satoshi foi minerado, o segundo é o deslocamento "
 "do satoshi dentro do bloco."
 
 #: src/overview.md:31
 msgid ""
 "_Degree notation_: "
-"[`3°111094′214″16797‴`](https://ordinals.com/sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). "
+"[`3°111094′214″16797‴`](https://ordinals.globalboost.info/sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). "
 "We'll get to that in a moment."
 msgstr ""
 "_Notação de grau_: "
-"[`3°111094′214″16797‴`](https://ordinals.com/sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). "
+"[`3°111094′214″16797‴`](https://ordinals.globalboost.info/sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). "
 "Falaremos sobre isso mais tarde."
 
 
 #: src/overview.md:35
 msgid ""
 "_Percentile notation_: "
-"[`99.99971949060254%`](https://ordinals.com/sat/99.99971949060254%25) . The "
+"[`99.99971949060254%`](https://ordinals.globalboost.info/sat/99.99971949060254%25) . The "
 "satoshi's position in GlobalBoost's supply, expressed as a percentage."
 msgstr ""
 "_Notação percentil_: "
-"[`99.99971949060254%`](https://ordinals.com/sat/99.99971949060254%25) . A "
+"[`99.99971949060254%`](https://ordinals.globalboost.info/sat/99.99971949060254%25) . A "
 "posição do satoshi na oferta total de bitcoin, expressa em porcentagem."
 
 #: src/overview.md:39
 msgid ""
-"_Name_: [`satoshi`](https://ordinals.com/sat/satoshi). An encoding of the "
+"_Name_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). An encoding of the "
 "ordinal number using the characters `a` through `z`."
 msgstr ""
-"_Nome_: [`satoshi`](https://ordinals.com/sat/satoshi). Uma codificação do "
+"_Nome_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). Uma codificação do "
 "número ordinal usando os caracteres `a` até `z`."
 
 #: src/overview.md:42
@@ -2692,10 +2692,10 @@ msgstr ""
 #: src/donate.md:17
 msgid ""
 "Donations received will go towards funding maintenance and development of "
-"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.com)."
+"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.globalboost.info)."
 msgstr ""
 "As doações recebidas serão destinadas ao financiamento da manutenção e desenvolvimento "
-"do `ord`, bem como aos custos de hospedagem do [ordinals.com](https://ordinals.com)."
+"do `ord`, bem como aos custos de hospedagem do [ordinals.com](https://ordinals.globalboost.info)."
 
 #: src/donate.md:20
 msgid "Thank you for donating!"
@@ -2720,11 +2720,11 @@ msgstr "Explorador Ordinal"
 #: src/guides/explorer.md:4
 msgid ""
 "The `ord` binary includes a block explorer. We host a instance of the block "
-"explorer on mainnet at [ordinals.com](https://ordinals.com), and on signet "
+"explorer on mainnet at [ordinals.com](https://ordinals.globalboost.info), and on signet "
 "at [signet.ordinals.com](https://signet.ordinals.com)."
 msgstr ""
 "O binário do `ord` inclui um explorador de blocos. Hospedamos uma instância "
-"do explorador de blocos na mainnet em [ordinals.com](https://ordinals.com) "
+"do explorador de blocos na mainnet em [ordinals.com](https://ordinals.globalboost.info) "
 "e no signet em [signet.ordinals.com](https://signet.ordinals.com)."
 
 #: src/guides/explorer.md:8
@@ -2773,9 +2773,9 @@ msgstr "Os blocos podem ser pesquisados por hash, por exemplo, o bloco gênesis:
 
 #: src/guides/explorer.md:30
 msgid ""
-"[000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f](https://ordinals.com/search/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f)"
+"[000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f](https://ordinals.globalboost.info/search/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f)"
 msgstr ""
-"[000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f](https://ordinals.com/search/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f)"
+"[000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f](https://ordinals.globalboost.info/search/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f)"
 
 #: src/guides/explorer.md:32
 msgid "Transactions"
@@ -2791,9 +2791,9 @@ msgstr ""
 
 #: src/guides/explorer.md:37
 msgid ""
-"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b](https://ordinals.com/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b)"
+"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b](https://ordinals.globalboost.info/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b)"
 msgstr ""
-"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b](https://ordinals.com/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b)"
+"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b](https://ordinals.globalboost.info/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b)"
 
 #: src/guides/explorer.md:39
 msgid "Outputs"
@@ -2809,9 +2809,9 @@ msgstr ""
 
 #: src/guides/explorer.md:44
 msgid ""
-"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0](https://ordinals.com/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0)"
+"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0](https://ordinals.globalboost.info/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0)"
 msgstr ""
-"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0](https://ordinals.com/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0)"
+"[4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0](https://ordinals.globalboost.info/search/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b:0)"
 
 #: src/guides/explorer.md:46
 msgid "Sats"
@@ -2826,16 +2826,16 @@ msgstr ""
 "oferta de bitcoin "
 
 #: src/guides/explorer.md:51
-msgid "[2099994106992659](https://ordinals.com/search/2099994106992659)"
-msgstr "[2099994106992659](https://ordinals.com/search/2099994106992659)"
+msgid "[2099994106992659](https://ordinals.globalboost.info/search/2099994106992659)"
+msgstr "[2099994106992659](https://ordinals.globalboost.info/search/2099994106992659)"
 
 #: src/guides/explorer.md:53
 msgid "By decimal, their block and offset within that block:"
 msgstr "Por decimal, seu bloco e deslocamento dentro daquele bloco:"
 
 #: src/guides/explorer.md:55
-msgid "[481824.0](https://ordinals.com/search/481824.0)"
-msgstr "[481824.0](https://ordinals.com/search/481824.0)"
+msgid "[481824.0](https://ordinals.globalboost.info/search/481824.0)"
+msgstr "[481824.0](https://ordinals.globalboost.info/search/481824.0)"
 
 #: src/guides/explorer.md:57
 msgid ""
@@ -2846,8 +2846,8 @@ msgstr ""
 "de dificuldade e deslocamento dentro do bloco:"
 
 #: src/guides/explorer.md:60
-msgid "[1°0′0″0‴](https://ordinals.com/search/1°0′0″0‴)"
-msgstr "[1°0′0″0‴](https://ordinals.com/search/1°0′0″0‴)"
+msgid "[1°0′0″0‴](https://ordinals.globalboost.info/search/1°0′0″0‴)"
+msgstr "[1°0′0″0‴](https://ordinals.globalboost.info/search/1°0′0″0‴)"
 
 #: src/guides/explorer.md:62
 msgid ""
@@ -2856,8 +2856,8 @@ msgstr ""
 "Por nome, sua representação na base 26 usando as letras \"a\" até \"z\":"
 
 #: src/guides/explorer.md:64
-msgid "[ahistorical](https://ordinals.com/search/ahistorical)"
-msgstr "[ahistorical](https://ordinals.com/search/ahistorical)"
+msgid "[ahistorical](https://ordinals.globalboost.info/search/ahistorical)"
+msgstr "[ahistorical](https://ordinals.globalboost.info/search/ahistorical)"
 
 #: src/guides/explorer.md:66
 msgid ""
@@ -2868,8 +2868,8 @@ msgstr ""
 "emitida quando ele for minerado:"
 
 #: src/guides/explorer.md:69
-msgid "[100%](https://ordinals.com/search/100%)"
-msgstr "[100%](https://ordinals.com/search/100%)"
+msgid "[100%](https://ordinals.globalboost.info/search/100%)"
+msgstr "[100%](https://ordinals.globalboost.info/search/100%)"
 
 #: src/guides/inscriptions.md:1
 msgid "Ordinal Inscription Guide"
@@ -3086,12 +3086,12 @@ msgstr "Você pode instalar o binário pré-construído mais recente a partir da
 #: src/guides/inscriptions.md:97
 msgid ""
 "```sh\n"
-"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash "
+"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash "
 "-s\n"
 "```"
 msgstr ""
 "```sh\n"
-"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash "
+"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash "
 "-s\n"
 "```"
 
@@ -3316,10 +3316,10 @@ msgstr ""
 
 #: src/guides/inscriptions.md:193
 msgid ""
-"And when you visit [the ordinals explorer](https://ordinals.com/) at "
+"And when you visit [the ordinals explorer](https://ordinals.globalboost.info/) at "
 "`ordinals.com/inscription/INSCRIPTION_ID`."
 msgstr ""
-"E quando você visita [o explorador de Ordinals](https://ordinals.com/) "
+"E quando você visita [o explorador de Ordinals](https://ordinals.globalboost.info/) "
 "em `ordinals.com/inscription/INSCRIPTION_ID`."
 
 #: src/guides/inscriptions.md:196
@@ -4153,10 +4153,10 @@ msgid ""
 "inscription by heading over to the `UTXOs` tab, finding the UTXO you want to "
 "check, right-clicking on the `Output` and selecting `Copy Transaction "
 "Output`. This transaction output id can then be pasted into the "
-"[ordinals.com](https://ordinals.com) search."
+"[ordinals.com](https://ordinals.globalboost.info) search."
 msgstr ""
 "Uma vez confirmada a transação, você pode validar e visualizar sua inscrição indo até a aba `UTXOs`, encontrando o UTXO que deseja verificar, "
-"clicando com o botão direito em `Output` e selecionando `Copy Transaction Output`. Esse ID de saída da transação pode então ser usado para busca em [ordinals.com](https://ordinals.com)."
+"clicando com o botão direito em `Output` e selecionando `Copy Transaction Output`. Esse ID de saída da transação pode então ser usado para busca em [ordinals.com](https://ordinals.globalboost.info)."
 
 #: src/guides/collecting/sparrow-wallet.md:72
 msgid "Freezing UTXO's"
@@ -4543,10 +4543,10 @@ msgstr ""
 #: src/guides/collecting/sparrow-wallet.md:171
 msgid ""
 "Once the transaction has confirmed you can check the inscription page on "
-"[ordinals.com](https://ordinals.com) to validate that it has moved to the "
+"[ordinals.com](https://ordinals.globalboost.info) to validate that it has moved to the "
 "new output location and address."
 msgstr ""
-"Assim que a transação for confirmada, você pode verificar a página de inscrição em [ordinals.com](https://ordinals.com) para validar que ela foi movida para o novo local e endereço de saída."
+"Assim que a transação for confirmada, você pode verificar a página de inscrição em [ordinals.com](https://ordinals.globalboost.info) para validar que ela foi movida para o novo local e endereço de saída."
 
 #: src/guides/collecting/sparrow-wallet.md:173
 msgid "Troubleshooting"
@@ -5071,12 +5071,12 @@ msgstr ""
 "Enviar um sat cujo número ordinal termina em zero para o endereço de entrega:"
 
 #: src/bounty/0.md:9
-msgid "✅: [1857578125803250](https://ordinals.com/ordinal/1857578125803250)"
-msgstr "✅: [1857578125803250](https://ordinals.com/ordinal/1857578125803250)"
+msgid "✅: [1857578125803250](https://ordinals.globalboost.info/ordinal/1857578125803250)"
+msgstr "✅: [1857578125803250](https://ordinals.globalboost.info/ordinal/1857578125803250)"
 
 #: src/bounty/0.md:11
-msgid "❌: [1857578125803251](https://ordinals.com/ordinal/1857578125803251)"
-msgstr "❌: [1857578125803251](https://ordinals.com/ordinal/1857578125803251)"
+msgid "❌: [1857578125803251](https://ordinals.globalboost.info/ordinal/1857578125803251)"
+msgstr "❌: [1857578125803251](https://ordinals.globalboost.info/ordinal/1857578125803251)"
 
 #: src/bounty/0.md:13
 msgid "The sat must be the first sat of the output you send."
@@ -5168,12 +5168,12 @@ msgid "Send an uncommon  sat to the submission address:"
 msgstr "Envie um sat incomum para o endereço de entrega:"
 
 #: src/bounty/2.md:9
-msgid "✅: [347100000000000](https://ordinals.com/sat/347100000000000)"
-msgstr "✅: [347100000000000](https://ordinals.com/sat/347100000000000)"
+msgid "✅: [347100000000000](https://ordinals.globalboost.info/sat/347100000000000)"
+msgstr "✅: [347100000000000](https://ordinals.globalboost.info/sat/347100000000000)"
 
 #: src/bounty/2.md:11
-msgid "❌: [6685000001337](https://ordinals.com/sat/6685000001337)"
-msgstr "❌: [6685000001337](https://ordinals.com/sat/6685000001337)"
+msgid "❌: [6685000001337](https://ordinals.globalboost.info/sat/6685000001337)"
+msgstr "❌: [6685000001337](https://ordinals.globalboost.info/sat/6685000001337)"
 
 #: src/bounty/2.md:13
 msgid ""

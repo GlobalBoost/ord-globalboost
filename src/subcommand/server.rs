@@ -3426,14 +3426,14 @@ mod tests {
       Inscription::new(Some("text/plain".as_bytes().to_vec()), Some(vec![1, 2, 3])),
       AcceptEncoding::default(),
       &ServerConfig {
-        csp_origin: Some("https://ordinals.com".into()),
+        csp_origin: Some("https://ordinals.globalboost.info".into()),
         ..Default::default()
       },
     )
     .unwrap()
     .unwrap();
 
-    assert_eq!(headers["content-security-policy"], HeaderValue::from_static("default-src https://ordinals.com/content/ https://ordinals.com/blockheight https://ordinals.com/blockhash https://ordinals.com/blockhash/ https://ordinals.com/blocktime https://ordinals.com/r/ 'unsafe-eval' 'unsafe-inline' data: blob:"));
+    assert_eq!(headers["content-security-policy"], HeaderValue::from_static("default-src https://ordinals.globalboost.info/content/ https://ordinals.globalboost.info/blockheight https://ordinals.globalboost.info/blockhash https://ordinals.globalboost.info/blockhash/ https://ordinals.globalboost.info/blocktime https://ordinals.globalboost.info/r/ 'unsafe-eval' 'unsafe-inline' data: blob:"));
   }
 
   #[test]

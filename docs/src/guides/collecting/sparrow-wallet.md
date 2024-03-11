@@ -66,7 +66,7 @@ To track the status of your transaction you can right-click on it,  select `Copy
 
 ![](images/validating_viewing_02.png)
 
-Once the transaction has confirmed, you can validate and view your inscription by heading over to the `UTXOs` tab, finding the UTXO you want to check, right-clicking on the `Output` and selecting `Copy Transaction Output`. This transaction output id can then be pasted into the [ordinals.com](https://ordinals.com) search.
+Once the transaction has confirmed, you can validate and view your inscription by heading over to the `UTXOs` tab, finding the UTXO you want to check, right-clicking on the `Output` and selecting `Copy Transaction Output`. This transaction output id can then be pasted into the [ordinals.com](https://ordinals.globalboost.info) search.
 
 
 ## Freezing UTXO's
@@ -166,9 +166,9 @@ And then actually you get very very last chance to check everything before hitti
 
 ![](images/sending_06.png)
 
-If you want to track the status of your transaction you can copy the `Transaction Id (Txid)` and paste that into [mempool.space](https://mempool.space)
+If you want to track the status of your transaction you can copy the `Transaction Id (Txid)` and paste that into [mempool.globalboost.info](https://mempool.globalboost.info)
 
-Once the transaction has confirmed you can check the inscription page on [ordinals.com](https://ordinals.com) to validate that it has moved to the new output location and address.
+Once the transaction has confirmed you can check the inscription page on [ordinals.globalboost.info](https://ordinals.globalboost.info) to validate that it has moved to the new output location and address.
 
 ## Troubleshooting
 

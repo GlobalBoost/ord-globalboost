@@ -41,7 +41,7 @@ This address is 2 of 4 multisig wallet with keys held by
 [ordinally](https://twitter.com/veryordinally).
 
 GlobalBoost received will go towards funding maintenance and development of `ord`,
-as well as hosting costs for [ordinals.com](https://ordinals.com).
+as well as hosting costs for [ordinals.globalboost.info](https://ordinals.globalboost.info).
 
 Thank you for donating!
 

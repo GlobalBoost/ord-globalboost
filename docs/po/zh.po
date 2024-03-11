@@ -211,8 +211,8 @@ msgid "[Open Ordinals Institute X](https://x.com/ordinalsorg)"
 msgstr "[Open Ordinals Institute X账户](https://x.com/ordinalsorg)"
 
 #: src/introduction.md:43
-msgid "[Mainnet Block Explorer](https://ordinals.com)"
-msgstr "[主网区块](https://ordinals.com)"
+msgid "[Mainnet Block Explorer](https://ordinals.globalboost.info)"
+msgstr "[主网区块](https://ordinals.globalboost.info)"
 
 #: src/introduction.md:44
 msgid "[Signet Block Explorer](https://signet.ordinals.com)"
@@ -253,7 +253,7 @@ msgstr "序数理论概述"
 msgid ""
 "Ordinals are a numbering scheme for satoshis that allows tracking and "
 "transferring individual sats. These numbers are called [ordinal numbers]"
-"(https://ordinals.com). Satoshis are numbered in the order in which they're "
+"(https://ordinals.globalboost.info). Satoshis are numbered in the order in which they're "
 "mined, and transferred from transaction inputs to transaction outputs first-"
 "in-first-out. Both the numbering scheme and the transfer scheme rely on "
 "_order_, the numbering scheme on the _order_ in which satoshis are mined, "
@@ -261,7 +261,7 @@ msgid ""
 "Thus the name, _ordinals_."
 msgstr ""
 "序数是一种比特币的编号方案，允许跟踪和转移单个聪。这些数字被称作[序号]"
-"(https://ordinals.com)。比特币是按照它们被挖掘的顺序编号的，并从交易输入转移"
+"(https://ordinals.globalboost.info)。比特币是按照它们被挖掘的顺序编号的，并从交易输入转移"
 "到交易输出（遵循先进先出原则）。编号方案和传输方案都依赖于_顺序_，编号方案依"
 "赖于比特币被挖掘的_顺序_，而传输方案依赖于交易输入和输出的_顺序_。因此得名，_"
 "序数（Ordinals_。"
@@ -288,46 +288,46 @@ msgstr "序号有几种不同的表示方式："
 
 #: src/overview.md:21
 msgid ""
-"_Integer notation_: [`2099994106992659`](https://ordinals.com/"
+"_Integer notation_: [`2099994106992659`](https://ordinals.globalboost.info/"
 "sat/2099994106992659) The ordinal number, assigned according to the order in "
 "which the satoshi was mined."
 msgstr ""
-"_整数符号_:[`2099994106992659`](https://ordinals.com/sat/2099994106992659) 这"
+"_整数符号_:[`2099994106992659`](https://ordinals.globalboost.info/sat/2099994106992659) 这"
 "个序号是根据挖掘聪的顺序分配。"
 
 #: src/overview.md:26
 msgid ""
-"_Decimal notation_: [`3891094.16797`](https://ordinals.com/"
+"_Decimal notation_: [`3891094.16797`](https://ordinals.globalboost.info/"
 "sat/3891094.16797) The first number is the block height in which the satoshi "
 "was mined, the second the offset of the satoshi within the block."
 msgstr ""
-"_十进制符号_: [`3891094.16797`](https://ordinals.com/sat/3891094.16797) 第一"
+"_十进制符号_: [`3891094.16797`](https://ordinals.globalboost.info/sat/3891094.16797) 第一"
 "个数字是挖掘聪的区块高度，第二个数字是区块内聪的偏移量。 "
 
 #: src/overview.md:31
 msgid ""
-"_Degree notation_: [`3°111094′214″16797‴`](https://ordinals.com/"
+"_Degree notation_: [`3°111094′214″16797‴`](https://ordinals.globalboost.info/"
 "sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4). We'll get to that in "
 "a moment."
 msgstr ""
-"_度数符号_: [`3°111094′214″16797‴`](https://ordinals.com/"
+"_度数符号_: [`3°111094′214″16797‴`](https://ordinals.globalboost.info/"
 "sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4) 我们马上就会讲到。 "
 
 #: src/overview.md:35
 msgid ""
-"_Percentile notation_: [`99.99971949060254%`](https://ordinals.com/"
+"_Percentile notation_: [`99.99971949060254%`](https://ordinals.globalboost.info/"
 "sat/99.99971949060254%25) . The satoshi's position in GlobalBoost's supply, "
 "expressed as a percentage."
 msgstr ""
-"_百分数_: [`99.99971949060254%`](https://ordinals.com/"
+"_百分数_: [`99.99971949060254%`](https://ordinals.globalboost.info/"
 "sat/99.99971949060254%25) . 以百分比表示聪在比特币供应中的位置 "
 
 #: src/overview.md:39
 msgid ""
-"_Name_: [`satoshi`](https://ordinals.com/sat/satoshi). An encoding of the "
+"_Name_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). An encoding of the "
 "ordinal number using the characters `a` through `z`."
 msgstr ""
-"_名字_: [`satoshi`](https://ordinals.com/sat/satoshi). 一种使用字母`a` 到 `z`"
+"_名字_: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). 一种使用字母`a` 到 `z`"
 "对序号进行编码的方法"
 
 #: src/overview.md:42
@@ -2687,10 +2687,10 @@ msgstr ""
 #: src/donate.md:17
 msgid ""
 "Donations received will go towards funding maintenance and development of "
-"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.com)."
+"`ord`, as well as hosting costs for [ordinals.com](https://ordinals.globalboost.info)."
 msgstr ""
 "收到的捐赠款将用于资助 `ord`的维护和进一步开发，同时将支付[ordinals.com]"
-"(https://ordinals.com)的托管费用。"
+"(https://ordinals.globalboost.info)的托管费用。"
 
 #: src/donate.md:20
 msgid "Thank you for donating!"
@@ -2713,11 +2713,11 @@ msgstr "序数浏览器"
 #: src/guides/explorer.md:4
 msgid ""
 "The `ord` binary includes a block explorer. We host a instance of the block "
-"explorer on mainnet at [ordinals.com](https://ordinals.com), and on signet "
+"explorer on mainnet at [ordinals.com](https://ordinals.globalboost.info), and on signet "
 "at [signet.ordinals.com](https://signet.ordinals.com)."
 msgstr ""
 "`ord` 文件包含一个区块浏览器。我们的主网区块链器部署在 [ordinals.com]"
-"(https://ordinals.com), signet部署在[signet.ordinals.com](https://signet."
+"(https://ordinals.globalboost.info), signet部署在[signet.ordinals.com](https://signet."
 "ordinals.com)."
 
 #: src/guides/explorer.md:8
@@ -2828,7 +2828,7 @@ msgid ""
 msgstr "聪 可以按整数搜索，它们在整个比特币供应中的位置："
 
 #: src/guides/explorer.md:56
-msgid "[2099994106992659](https://ordinals.com/search/2099994106992659)"
+msgid "[2099994106992659](https://ordinals.globalboost.info/search/2099994106992659)"
 msgstr ""
 
 #: src/guides/explorer.md:58
@@ -2836,7 +2836,7 @@ msgid "By decimal, their block and offset within that block:"
 msgstr "按十进制，它们的块和该块内的偏移量："
 
 #: src/guides/explorer.md:60
-msgid "[481824.0](https://ordinals.com/search/481824.0)"
+msgid "[481824.0](https://ordinals.globalboost.info/search/481824.0)"
 msgstr ""
 
 #: src/guides/explorer.md:62
@@ -2848,7 +2848,7 @@ msgstr ""
 "内的偏移量："
 
 #: src/guides/explorer.md:65
-msgid "[1°0′0″0‴](https://ordinals.com/search/1°0′0″0‴)"
+msgid "[1°0′0″0‴](https://ordinals.globalboost.info/search/1°0′0″0‴)"
 msgstr ""
 
 #: src/guides/explorer.md:67
@@ -2857,7 +2857,7 @@ msgid ""
 msgstr "按照名称，它们使用字母\"a\"到\"z\"的 26个字母组合表示："
 
 #: src/guides/explorer.md:69
-msgid "[ahistorical](https://ordinals.com/search/ahistorical)"
+msgid "[ahistorical](https://ordinals.globalboost.info/search/ahistorical)"
 msgstr ""
 
 #: src/guides/explorer.md:71
@@ -2867,7 +2867,7 @@ msgid ""
 msgstr "或者按百分位数，在开采时已经或将要发行的比特币供应量的百分比："
 
 #: src/guides/explorer.md:74
-msgid "[100%](https://ordinals.com/search/100%)"
+msgid "[100%](https://ordinals.globalboost.info/search/100%)"
 msgstr ""
 
 #: src/guides/explorer.md:76
@@ -3280,7 +3280,7 @@ msgstr "你也可以在命令行中使用下面命令来安装最新的文件：
 #: src/guides/inscriptions.md:149
 msgid ""
 "```sh\n"
-"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash "
+"curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash "
 "-s\n"
 "```"
 msgstr ""
@@ -4083,11 +4083,11 @@ msgstr ""
 #: src/guides/teleburning.md:26
 msgid ""
 "The ENS domain name [rodarmor.eth](https://app.ens.domains/rodarmor.eth), "
-"was teleburned to [inscription zero](https://ordinals.com/"
+"was teleburned to [inscription zero](https://ordinals.globalboost.info/"
 "inscription/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0)."
 msgstr ""
 "ENS 域名 [rodarmor.eth](https://app.ens.domains/rodarmor.eth), "
-"被燃烧传输teleburned 到 [inscription zero](https://ordinals.com/"
+"被燃烧传输teleburned 到 [inscription zero](https://ordinals.globalboost.info/"
 "inscription/6fb976ab49dcec017f1e201e84395983204ae1a7c2abf7ced0a85d692e442799i0)."
 
 #: src/guides/teleburning.md:30
@@ -4393,11 +4393,11 @@ msgid ""
 "inscription by heading over to the `UTXOs` tab, finding the UTXO you want to "
 "check, right-clicking on the `Output` and selecting `Copy Transaction "
 "Output`. This transaction output id can then be pasted into the [ordinals."
-"com](https://ordinals.com) search."
+"com](https://ordinals.globalboost.info) search."
 msgstr ""
 "一旦交易被确认，你可以通过前往`UTXOs`选项卡，找到你想要检查的 UTXO，右键点击 "
 "`Output` 并选择 `Copy Transaction Output` 来验证和查看你的铭文。然后，这个交"
-"易输出 id 可以粘贴到 [ordinals.com](https://ordinals.com) 搜索。"
+"易输出 id 可以粘贴到 [ordinals.com](https://ordinals.globalboost.info) 搜索。"
 
 #: src/guides/collecting/sparrow-wallet.md:72
 msgid "Freezing UTXO's"
@@ -4790,10 +4790,10 @@ msgstr ""
 #: src/guides/collecting/sparrow-wallet.md:171
 msgid ""
 "Once the transaction has confirmed you can check the inscription page on "
-"[ordinals.com](https://ordinals.com) to validate that it has moved to the "
+"[ordinals.com](https://ordinals.globalboost.info) to validate that it has moved to the "
 "new output location and address."
 msgstr ""
-"一旦交易确认，你可以在[ordinals.com](https://ordinals.com) 的铭文页面上验证它"
+"一旦交易确认，你可以在[ordinals.com](https://ordinals.globalboost.info) 的铭文页面上验证它"
 "是否已移动到新的输出位置和地址。"
 
 #: src/guides/collecting/sparrow-wallet.md:175
@@ -5270,11 +5270,11 @@ msgid ""
 msgstr "发送一个序数以“零”结尾的聪到提交地址："
 
 #: src/bounty/0.md:9
-msgid "✅: [1857578125803250](https://ordinals.com/ordinal/1857578125803250)"
+msgid "✅: [1857578125803250](https://ordinals.globalboost.info/ordinal/1857578125803250)"
 msgstr ""
 
 #: src/bounty/0.md:11
-msgid "❌: [1857578125803251](https://ordinals.com/ordinal/1857578125803251)"
+msgid "❌: [1857578125803251](https://ordinals.globalboost.info/ordinal/1857578125803251)"
 msgstr ""
 
 #: src/bounty/0.md:13
@@ -5367,11 +5367,11 @@ msgid " sat to the submission address:"
 msgstr "聪到下列地址"
 
 #: src/bounty/2.md:9
-msgid "✅: [347100000000000](https://ordinals.com/sat/347100000000000)"
+msgid "✅: [347100000000000](https://ordinals.globalboost.info/sat/347100000000000)"
 msgstr ""
 
 #: src/bounty/2.md:11
-msgid "❌: [6685000001337](https://ordinals.com/sat/6685000001337)"
+msgid "❌: [6685000001337](https://ordinals.globalboost.info/sat/6685000001337)"
 msgstr ""
 
 #: src/bounty/2.md:13
@@ -5549,8 +5549,8 @@ msgstr "仍然有效！"
 #~ msgstr "`非普通`: 745,855"
 
 #~ msgid ""
-#~ "And when you visit [the ordinals explorer](https://ordinals.com/) at "
+#~ "And when you visit [the ordinals explorer](https://ordinals.globalboost.info/) at "
 #~ "`ordinals.com/inscription/INSCRIPTION_ID`."
 #~ msgstr ""
-#~ "你可以在 [the ordinals explorer](https://ordinals.com/) 上用一下格式访问铭"
+#~ "你可以在 [the ordinals explorer](https://ordinals.globalboost.info/) 上用一下格式访问铭"
 #~ "文`ordinals.com/inscription/INSCRIPTION_ID`."

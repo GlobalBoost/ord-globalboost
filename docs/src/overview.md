@@ -3,7 +3,7 @@ Ordinal Theory Overview
 
 Ordinals are a numbering scheme for satoshis that allows tracking and
 transferring individual sats. These numbers are called [ordinal
-numbers](https://ordinals.com). Satoshis are numbered in the order in which
+numbers](https://ordinals.globalboost.info). Satoshis are numbered in the order in which
 they're mined, and transferred from transaction inputs to transaction outputs
 first-in-first-out. Both the numbering scheme and the transfer scheme rely on
 *order*, the numbering scheme on the *order* in which satoshis are mined, and
@@ -19,24 +19,24 @@ changes to GlobalBoost. It works right now.
 Ordinal numbers have a few different representations:
 
 - *Integer notation*:
-  [`2099994106992659`](https://ordinals.com/sat/2099994106992659) The
+  [`2099994106992659`](https://ordinals.globalboost.info/sat/2099994106992659) The
   ordinal number, assigned according to the order in which the satoshi was
   mined.
 
 - *Decimal notation*:
-  [`3891094.16797`](https://ordinals.com/sat/3891094.16797) The first
+  [`3891094.16797`](https://ordinals.globalboost.info/sat/3891094.16797) The first
   number is the block height in which the satoshi was mined, the second the
   offset of the satoshi within the block.
 
 - *Degree notation*:
-  [`3°111094′214″16797‴`](https://ordinals.com/sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4).
+  [`3°111094′214″16797‴`](https://ordinals.globalboost.info/sat/3%C2%B0111094%E2%80%B2214%E2%80%B316797%E2%80%B4).
   We'll get to that in a moment.
 
 - *Percentile notation*:
-  [`99.99971949060254%`](https://ordinals.com/sat/99.99971949060254%25) .
+  [`99.99971949060254%`](https://ordinals.globalboost.info/sat/99.99971949060254%25) .
   The satoshi's position in GlobalBoost's supply, expressed as a percentage.
 
-- *Name*: [`satoshi`](https://ordinals.com/sat/satoshi). An encoding of the
+- *Name*: [`satoshi`](https://ordinals.globalboost.info/sat/satoshi). An encoding of the
   ordinal number using the characters `a` through `z`.
 
 Arbitrary assets, such as NFTs, security tokens, accounts, or stablecoins can

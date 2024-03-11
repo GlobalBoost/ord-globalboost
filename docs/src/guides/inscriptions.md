@@ -131,11 +131,11 @@ return something like
 }
 ```
 If it only returns `{}`, `txindex` is not set.
-If it returns `"synced": false`, `bitcoind` is still creating the `txindex`.
+If it returns `"synced": false`, `globalboostd` is still creating the `txindex`.
 Wait until `"synced": true` before using `ord`.
 
 If you have `maxuploadtarget` set it can interfere with fetching blocks for
-`ord` index. Either remove it or set `whitebind=127.0.0.1:8333`.
+`ord` index. Either remove it or set `whitebind=127.0.0.1:8226`.
 
 Installing `ord`
 ----------------
@@ -147,7 +147,7 @@ The `ord` utility is written in Rust and can be built from
 You can install the latest pre-built binary from the command line with:
 
 ```sh
-curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.com/install.sh | bash -s
+curl --proto '=https' --tlsv1.2 -fsLS https://ordinals.globalboost.info/install.sh | bash -s
 ```
 
 Once `ord` is installed, you should be able to run:
@@ -232,8 +232,8 @@ the content on chain and inscribing it on the first sat of the input that
 contains the corresponding tapscript.
 
 Wait for the reveal transaction to be mined. You can check the status of the
-commit and reveal transactions using  [the mempool.space block
-explorer](https://mempool.space/).
+commit and reveal transactions using  [the mempool.globalboost.info block
+explorer](https://mempool.globalboost.info/).
 
 Once the reveal transaction has been mined, the inscription ID should be
 printed when you run:

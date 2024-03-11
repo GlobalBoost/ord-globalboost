@@ -40,7 +40,7 @@ Links
 - [Discord](https://discord.gg/ordinals)
 - [Open Ordinals Institute Website](https://ordinals.org/)
 - [Open Ordinals Institute X](https://x.com/ordinalsorg)
-- [Mainnet Block Explorer](https://ordinals.com)
+- [Mainnet Block Explorer](https://ordinals.globalboost.info)
 - [Signet Block Explorer](https://signet.ordinals.com)
 
 Videos

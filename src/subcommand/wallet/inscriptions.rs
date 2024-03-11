@@ -16,7 +16,7 @@ pub(crate) fn run(options: Options) -> SubcommandResult {
   let inscriptions = index.get_inscriptions(&unspent_outputs)?;
 
   let explorer = match options.chain() {
-    Chain::Mainnet => "https://ordinals.com/inscription/",
+    Chain::Mainnet => "https://ordinals.globalboost.info/inscription/",
     Chain::Regtest => "http://localhost/inscription/",
     Chain::Signet => "https://signet.ordinals.com/inscription/",
     Chain::Testnet => "https://testnet.ordinals.com/inscription/",
